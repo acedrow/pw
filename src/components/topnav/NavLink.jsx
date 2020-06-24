@@ -1,18 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { lavender } from '../styles/Colors'
+import { lavender } from '../../styles/Colors'
 
 export const NavLink = (props) => {
-//   const [hovered, setHovered] = useState(false)
-//   const toggleHover = () => {
-//     console.log('hover')
-//     setHovered(!hovered)
-//   }
   return (
     <NavLinkButton
-
-    //   onMouseEnter={() => toggleHover()}
-    //   onMouseLeave={() => toggleHover()}
       onClick={props.linkDest}
     >
       {props.linkText}

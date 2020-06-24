@@ -14,6 +14,10 @@ export const Topnav = (navLinks) => {
           linkText="Resume"
           linkDest={() => console.log('contact button')}
         ></NavLink>
+          <NavLink
+          linkText="Music"
+          linkDest={() => console.log('contact button')}
+        ></NavLink>
       </TopNavContainer>
     </>
   )
