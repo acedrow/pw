@@ -1,8 +1,9 @@
 import React from 'react'
+import styled from 'styled-components';
 
 export const Blurb = () => {
   return (
-    <h1>
+    <BlurbContainer>
       Linden Holt
       <br /> is a full-stack developer based in Minneapolis
       {/* //   <br /> who greatly enjoys the
@@ -10,6 +11,11 @@ export const Blurb = () => {
        <br /> of the IT experiece.*/}
       <br /> who is bad
       <br /> at blurbs.
-    </h1>
+    </BlurbContainer>
   )
 }
+
+const BlurbContainer = styled.h1`
+  margin: 20px 0 0 20px;
+  text-align: left;
+`;

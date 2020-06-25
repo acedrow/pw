@@ -25,5 +25,7 @@ export const Topnav = (navLinks) => {
 
 const TopNavContainer = styled.div`
   display: flex;
+  margin: 0 20px 0 20px;
   flex-direction: row;
+  justify-content: flex-end;
 `

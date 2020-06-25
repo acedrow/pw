@@ -4,16 +4,14 @@ import './App.css'
 import { Topnav } from './components/topnav/Topnav'
 import { Blurb } from './components/linden-info/blurb'
 import { BackgroundImage } from './components/BackgroundImage'
+import { Homepage } from './components/homepage/Homepage'
 
 class App extends Component {
   render() {
     return (
       <>
         <div className="App">
-          <BackgroundImage imageUrl="https://i.imgur.com/P9gbnLf.jpg">
-            <Topnav></Topnav>
-            <Blurb></Blurb>
-            </BackgroundImage>
+          <Homepage></Homepage>
 
         </div>
       </>

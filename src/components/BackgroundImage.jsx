@@ -1,21 +1,14 @@
 import React, { useState } from 'react'
 
 export const BackgroundImage = (props) => {
-  // const [imageUrl, setImageUrl] = useState('')
-  // setImageUrl(props.imageUrl? props.imageUrl : '')
-  const backgroundImage = props.imageUrl
-  ? `url(${props.imageUrl})`
-  : `url(https://i.imgur.com/ooY7u7a.png)`
-   
-  console.log('background image: ' + backgroundImage)
-  
+  //TODO: Update default image here so it's not stupid.
   const bgStyle = {
     width: '100vw',
     height: '100vh',
-    backgroundImage: props.imageUrl
-    ? `url(${props.imageUrl})`
-    : `url(https://i.imgur.com/ooY7u7a.png)`,
+    backgroundImage: `url(${props.imageUrl})`,
+    backgroundColor: 'grey',
     backgroundSize: 'cover',
+    backgroundPosition: 'bottom',
   }
 
   return (
