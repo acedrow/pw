@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const Blurb = () => {
   return (
     <BlurbContainer>
-      Linden Holt
-      <br /> is a full-stack developer based in Minneapolis
+      Linden Holt asdasd
+      <br /> is a software developer based in Minneapolis
       {/* //   <br /> who greatly enjoys the
        <br /> day-to-day creative problem solving
        <br /> of the IT experiece.*/}

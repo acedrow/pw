@@ -1,28 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { lavender } from '../../styles/Colors'
 
 export const NavLink = (props) => {
+
+  const [style, setStyle] = useState(props.style);
+  const [hovered, setHovered] = useState(false)
+
+  useEffect(() => {
+
+  }, [hovered])
+
   return (
-    <NavLinkButton
+    <button
       onClick={props.linkDest}
+      onMouseEnter={()=> setHovered(true)}
+      onMouseLeave={()=> setHovered(false)}
+      style={style}
     >
       {props.linkText}
-    </NavLinkButton>
+    </button>
   )
 }
 
-const NavLinkButton = styled.button`
-  padding: 20px;
-  background-color: Transparent;
-  border: none;
-  outline: none;
-  overflow: hidden;
-  color: ${lavender};
-  transition: color 1s;
-  font-family: Yeseva One, cursive;
-  font-size: medium;
-  &:hover {
-    color: white
-  }
-`
