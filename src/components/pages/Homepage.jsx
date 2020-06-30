@@ -6,14 +6,13 @@ import { BackgroundImage } from '../BackgroundImage'
 
 export const Homepage = () => {
   return (
-    <BackgroundImage imageUrl="https://i.imgur.com/P9gbnLf.jpg">
+
       <OuterContentContainer id='outerContainer'>
         <ContentContainer id='innerContainer'>
-          <Topnav></Topnav>
           <Blurb></Blurb>
         </ContentContainer>
       </OuterContentContainer>
-    </BackgroundImage>
+
   )
 }
 
