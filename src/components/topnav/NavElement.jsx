@@ -29,13 +29,26 @@ export const NavElement = (props) => {
         </button>
       )}
       {props.elementType === 'link' && (
-        <div
+        <NavLink
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+          style={style}
+          to={props.linkDest}
+        >
+          {' '}
+          {props.navItemText}
+        </NavLink>
+      )}
+      {props.elementType === 'a' && (
+        <a
+          href={props.linkDest}
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           style={style}
         >
-            <NavLink to={props.linkDest}> {props.navItemText}</NavLink>
-        </div>
+          {' '}
+          {props.navItemText}
+        </a>
       )}
     </>
   )
@@ -44,4 +57,4 @@ export const NavElement = (props) => {
 const NavLink = styled(Link)`
   color: inherit;
   text-decoration: none;
-`;
+`

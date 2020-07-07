@@ -6,6 +6,8 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 import { Resume } from './components/pages/Resume'
 import { Topnav } from './components/topnav/Topnav'
 import { BackgroundImage } from './components/BackgroundImage'
+import styled from 'styled-components'
+import { DragTest } from './components/pages/DragTest';
 
 class App extends Component {
   render() {
@@ -13,22 +15,24 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <BackgroundImage imageUrl="https://i.imgur.com/P9gbnLf.jpg">
-            <Topnav />
-            <br />
-            <Link to="/resume"> RESUME TEST LINK </Link>
-            <br />
-            <Link to="/"> HOME TEST LINK </Link>
-            <Switch>
-              <Route exact path="/">
-                <Homepage></Homepage>
-              </Route>
-              <Route path="/resume" exact component={Resume}></Route>
-            </Switch>
+            <MainContentContainer id="mainContentContainer">
+              <Topnav />
+              <Switch>
+                <Route exact path="/" component={Homepage}></Route>
+                <Route exact path="/resume" component={Resume}></Route>
+                <Route exact path="/dragTest" component={DragTest}></Route>
+              </Switch>
+            </MainContentContainer>
           </BackgroundImage>
         </BrowserRouter>
       </div>
     )
   }
 }
+
+//TODO: need to make this centered when fullscreen
+const MainContentContainer = styled.div`
+  max-width: 1200px;
+`
 
 export default hot(module)(App)

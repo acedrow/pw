@@ -5,6 +5,7 @@ export const BackgroundImage = (props) => {
   const bgStyle = {
     width: '100vw',
     height: '100vh',
+    minHeight: '800px',
     backgroundImage: `url(${props.imageUrl})`,
     backgroundColor: 'grey',
     backgroundSize: 'cover',

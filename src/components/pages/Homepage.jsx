@@ -24,6 +24,5 @@ const OuterContentContainer = styled.div`
 
 const ContentContainer = styled.div`
   width: 100%;
-  max-width: 1000px;
   display: inline-block
 `

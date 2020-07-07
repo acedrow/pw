@@ -12,35 +12,42 @@ export const baseColor = lavender
 export const Topnav = (navLinks) => {
   return (
     <>
-
-        {/* <Link to="/resume" > Topnav Resume Test</Link>
+      {/* <Link to="/resume" > Topnav Resume Test</Link>
         <Link to="/" > Home  Test</Link> */}
-
 
       {/* TODO: put these in a list and map */}
       <TopNavContainer>
-      <NavElement
+        <NavElement
           navItemText="Home"
           elementType="link"
-          linkDest='/'
+          linkDest="/"
+          style={NavElementStyle}
+        ></NavElement>
+        {/* <a href="mailto:ace.holt@gmail.com" style={NavElementStyle}>
+          Contact
+        </a> */}
+        <NavElement
+          navItemText="Resume"
+          elementType="link"
+          linkDest="/resume"
           style={NavElementStyle}
         ></NavElement>
         <NavElement
           navItemText="Contact"
-          elementType="button"
-          buttonMethod={() => console.log('contact button')}
-          style={NavElementStyle}
-        ></NavElement>
-        <NavElement
-          navItemText="Resume"
-          elementType="link"
-          linkDest='/resume'
+          elementType="a"
+          linkDest="mailto:ace.holt@gmail.com"
           style={NavElementStyle}
         ></NavElement>
         <NavElement
           navItemText="Music"
           elementType="button"
           buttonMethod={() => console.log('contact button')}
+          style={NavElementStyle}
+        ></NavElement>
+        <NavElement
+          navItemText="*"
+          elementType="link"
+          linkDest="/dragTest"
           style={NavElementStyle}
         ></NavElement>
       </TopNavContainer>
@@ -58,6 +65,7 @@ export const NavElementStyle = {
   transition: 'color 1s',
   fontFamily: 'Yeseva One, cursive',
   fontSize: 'medium',
+  textDecoration: 'none',
 }
 
 const TopNavContainer = styled.div`
