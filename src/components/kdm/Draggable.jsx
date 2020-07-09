@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { DragContext } from './DragContext'
 import styled from 'styled-components'
 
-export const DRAGGABLE_Z_INDEX = 2;
+export const DRAGGABLE_Z_INDEX = 2
 
 export const Draggable = (props) => {
   const DEFAULT_LENGTH = 100
   const DEFAULT_COORDINATE = 0
   const dragRef = React.useRef()
+  //@ts-ignore
+  const { setDraggedElement, setMouseUpWhileDrag } = useContext(DragContext)
 
   const [mounted, setMounted] = useState(false)
   const [x, setX] = useState(props.startX ? props.startX : DEFAULT_COORDINATE)
@@ -16,36 +18,36 @@ export const Draggable = (props) => {
   const [relY, setRelY] = useState(null)
   const [dragging, setDragging] = useState(false)
 
-  useEffect(() => {})
-
   const mouseDown = (e) => {
+    console.log('mousedown')
     if (e.button !== 0) return
     const { offsetTop, offsetLeft } = dragRef.current
     setDragging(true)
     setRelX(e.pageX - offsetLeft)
     setRelY(e.pageY - offsetTop)
 
-    e.stopPropagation()
     e.preventDefault()
   }
 
   onmouseup = (e) => {
+    setMouseUpWhileDrag({ dragref: dragRef, mouseX: e.pageX, mouseY: e.pageY })
     setDragging(false)
-    e.stopPropagation()
+
     e.preventDefault()
   }
 
-  onmousemove = (e) => {
+  const mouseMove = (e) => {
     if (!dragging) return
     setX(e.pageX - relX)
     setY(e.pageY - relY)
-    e.stopPropagation()
+
     e.preventDefault()
   }
 
   return (
     <div
       onMouseDown={mouseDown}
+      onMouseMove={mouseMove}
       ref={dragRef}
       style={{
         // needs to be in a container positioned other than relative.
@@ -62,4 +64,3 @@ export const Draggable = (props) => {
     </div>
   )
 }
-

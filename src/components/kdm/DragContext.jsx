@@ -1,5 +1,17 @@
-import React from "react";
+import React, { useState } from 'react'
 
 export const DragContext = React.createContext({})
 
-//const {CONTEXT_VALUE} = useContext(DragContext);
+export const DragContextConsumer = DragContext.Consumer;
+
+export const DragContextProvider = (props) => {
+  const [mouseUpWhileDrag, setMouseUpWhileDrag] = useState({})
+  const [draggedElement, setDraggedElement] = useState({})
+
+  return (
+    <DragContext.Provider 
+    value={{ mouseUpWhileDrag, setMouseUpWhileDrag }}>
+      {props.children}
+    </DragContext.Provider>
+  )
+}
