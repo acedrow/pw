@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react'
-import { DragContext } from './DragContext'
+import { CardContext } from './CardContext'
 import styled from 'styled-components'
 
 export const DRAGGABLE_Z_INDEX = 2
@@ -9,7 +9,7 @@ export const Draggable = (props) => {
   const DEFAULT_COORDINATE = 0
   const dragRef = React.useRef()
   //@ts-ignore
-  const { setDraggedElement, setMouseUpWhileDrag } = useContext(DragContext)
+  const { setDraggedElement, setMouseUpWhileDrag } = useContext(CardContext)
 
   const [mounted, setMounted] = useState(false)
   const [x, setX] = useState(props.startX ? props.startX : DEFAULT_COORDINATE)
@@ -29,7 +29,8 @@ export const Draggable = (props) => {
     e.preventDefault()
   }
 
-  onmouseup = (e) => {
+  const mouseUp = (e) => {
+    console.log('draggable mouse up')
     setMouseUpWhileDrag({ dragref: dragRef, mouseX: e.pageX, mouseY: e.pageY })
     setDragging(false)
 
@@ -48,6 +49,7 @@ export const Draggable = (props) => {
     <div
       onMouseDown={mouseDown}
       onMouseMove={mouseMove}
+      onMouseUp={mouseUp}
       ref={dragRef}
       style={{
         // needs to be in a container positioned other than relative.
@@ -59,7 +61,7 @@ export const Draggable = (props) => {
         zIndex: DRAGGABLE_Z_INDEX,
       }}
     >
-      <DragContext.Provider value={props.contextProps}></DragContext.Provider>
+      <CardContext.Provider value={props.contextProps}></CardContext.Provider>
       {props.children}
     </div>
   )

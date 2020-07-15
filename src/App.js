@@ -7,7 +7,7 @@ import { Resume } from './components/pages/Resume'
 import { Topnav } from './components/topnav/Topnav'
 import { BackgroundImage } from './components/BackgroundImage'
 import styled from 'styled-components'
-import { DragTest } from './components/pages/DragTest';
+import { GearGridTest } from './components/pages/GearGridTest';
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Homepage}></Route>
                 <Route exact path="/resume" component={Resume}></Route>
-                <Route exact path="/dragTest" component={DragTest}></Route>
+                <Route exact path="/dragTest" component={GearGridTest}></Route>
               </Switch>
             </MainContentContainer>
           </BackgroundImage>
