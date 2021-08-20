@@ -32,8 +32,8 @@ const homepagePhrases = [
 
 const reelItemHeightPixels = 21
 
-function getRandomInt(max: number) {
-  return Math.floor(Math.random() * max)
+function getNewReelTop(max: number) {
+  return -(reelItemHeightPixels * Math.floor(Math.random() * max))
 }
 
 const SlotMachineTextEffect = ({ textItems }: { textItems?: string[] }) => {
@@ -42,42 +42,43 @@ const SlotMachineTextEffect = ({ textItems }: { textItems?: string[] }) => {
       ? homepagePhrases
       : textItems
 
-  const [reelTop, setReelTop] = useState<number>(0)
-
-  useEffect(() => {
-    console.log("reelTop:", reelTop)
-  }, [reelTop])
+  const [reelTop, setReelTop] = useState<number>(
+    getNewReelTop(textItems?.length ? textItems?.length - 1 : 1)
+  )
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const newIndex = getRandomInt(
+      const newReelTop = getNewReelTop(
         textItems?.length ? textItems?.length - 1 : 1
       )
-      setReelTop(-(newIndex * reelItemHeightPixels))
-    }, 2000)
+      setReelTop(newReelTop)
+    }, 3000)
     return () => {
       clearInterval(interval)
     }
   }, [])
 
   return (
-    <MaskContainer>
-      <ReelContainer top={reelTop}>
-        {textItems.map((text) => (
-          <ReelItem>
-            <span>{text}</span>
-          </ReelItem>
-        ))}
-      </ReelContainer>
-    </MaskContainer>
+    <OuterContainer>
+      <MaskContainer>
+        <ReelContainer top={reelTop}>
+          {textItems.map((text) => (
+            <ReelItem>
+              <span>{text}</span>
+            </ReelItem>
+          ))}
+        </ReelContainer>
+      </MaskContainer>
+    </OuterContainer>
   )
 }
 
 export default SlotMachineTextEffect
 
+const OuterContainer = styled.div``
+
 const MaskContainer = styled.div`
   position: absolute;
-  background-color: grey;
   width: 250px;
   height: ${reelItemHeightPixels}px;
   overflow: hidden;
@@ -90,7 +91,6 @@ const ReelItem = styled.div`
 const ReelContainer = styled.div<{ top: number }>`
   position: absolute;
   top: ${(props) => props.top}px;
-  width: 100%;
   transition: top ease-in-out 0.5s;
   //text-align: center;
 `
