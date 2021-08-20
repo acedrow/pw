@@ -1,7 +1,5 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Homepage from "./home/homepage"
 
-ReactDOM.render(
-  <div> This is a new react app</div>,
-  document.getElementById("root")
-)
+ReactDOM.render(<Homepage />, document.getElementById("root"))
