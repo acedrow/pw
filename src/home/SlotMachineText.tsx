@@ -21,7 +21,7 @@ const homepagePhrases = [
   "green pepper afficionado",
   "red bull racing superfan",
   "dice crafter",
-  "ｖａｐｏｒｗａｖｅ producer",
+  "ambient producer",
   "Checo Perez stan",
   "basement-rockstar",
   "dedicated headbanger",
@@ -30,10 +30,12 @@ const homepagePhrases = [
   "mostpit devotee",
 ]
 
-const reelItemHeightPixels = 21
+//currently can't change this or font size without breaking styling 🙃🙃
+
+const reelItemHeightPixels = 45
 
 function getNewReelTop(max: number) {
-  return -(reelItemHeightPixels * Math.floor(Math.random() * max))
+  return -((reelItemHeightPixels * Math.floor(Math.random() * max)) + reelItemHeightPixels / 2)
 }
 
 const SlotMachineTextEffect = ({ textItems }: { textItems?: string[] }) => {
@@ -59,17 +61,19 @@ const SlotMachineTextEffect = ({ textItems }: { textItems?: string[] }) => {
   }, [])
 
   return (
-    <OuterContainer>
-      <MaskContainer>
-        <ReelContainer top={reelTop}>
-          {textItems.map((text) => (
-            <ReelItem>
-              <span>{text}</span>
-            </ReelItem>
-          ))}
+    <OuterContainer id='outer-container' aria-label='a rotating list of descriptions'>
+      <MaskContainer id='mask-container'>
+        <ReelContainer id='reel-contain er' top={reelTop}>
+          {textItems.map((text, index) => {
+            const id = `reel-item-${index}`
+            return (<ReelItem id={id}>
+              <span style={{ fontSize: "2rem", fontWeight: "bold" }}>{text}</span>
+            </ReelItem>)
+          }
+          )}
         </ReelContainer>
       </MaskContainer>
-    </OuterContainer>
+    </OuterContainer >
   )
 }
 
@@ -78,13 +82,15 @@ export default SlotMachineTextEffect
 const OuterContainer = styled.div``
 
 const MaskContainer = styled.div`
+  margin-top: -1rem;
   position: absolute;
-  width: 250px;
-  height: ${reelItemHeightPixels}px;
-  overflow: hidden;
+  width: 100%;
+  height: ${reelItemHeightPixels}px; 
+   overflow: hidden;
 `
 
 const ReelItem = styled.div`
+
   height: ${reelItemHeightPixels}px;
 `
 
