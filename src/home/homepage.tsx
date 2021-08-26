@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import HomepageLinks from './links'
 import SlotMachineText from './SlotMachineText'
 
 const Homepage = () => {
@@ -7,11 +8,12 @@ const Homepage = () => {
     <HomepageContainer>
       <IntroContainer flexDirection="" id="introContainer">
         <TextDiv>
-          <TitleH1>Hi I'm Linden</TitleH1>
+          <TitleH1>Hi, I'm Linden</TitleH1>
           <TitleH1>a full-stack React/Node developer and</TitleH1>
         </TextDiv>
         <SlotMachineText />
       </IntroContainer>
+      <HomepageLinks />
     </HomepageContainer>
   )
 }
@@ -24,7 +26,7 @@ const TextDiv = styled.div`
 `
 
 const IntroContainer = styled.div<{ flexDirection: string }>`
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 2rem 1.5rem;
   font-size: 50px;
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
