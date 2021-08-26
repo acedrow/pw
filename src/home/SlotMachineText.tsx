@@ -1,33 +1,33 @@
-import { useEffect, useState } from "react"
-import styled from "styled-components"
+import { useEffect, useState } from 'react'
+import styled from 'styled-components'
 
 const homepagePhrases = [
-  "dungeon master",
-  "barbel gremlin",
-  "märzentrinker",
-  "miniature-painter",
-  "guitarist",
-  "songwriter",
-  "bassist",
-  "enormous nerd",
-  "ex-fencer",
-  "memelord",
-  "bedroom engineer",
-  "rock-climber",
-  "raleigh rider",
-  "strategy gamer",
-  "taco connoisseur",
-  "canoe-sterner",
-  "green pepper afficionado",
-  "red bull racing superfan",
-  "dice crafter",
-  "ambient producer",
-  "Checo Perez stan",
-  "basement-rockstar",
-  "dedicated headbanger",
-  "karaoke enthusiast",
-  "DIY music supporter",
-  "mostpit devotee",
+  'dungeon master',
+  'barbel gremlin',
+  'märzentrinker',
+  'miniature-painter',
+  'guitarist',
+  'songwriter',
+  'bassist',
+  'enormous nerd',
+  'ex-fencer',
+  'memelord',
+  'bedroom engineer',
+  'rock-climber',
+  'raleigh rider',
+  'strategy gamer',
+  'taco connoisseur',
+  'canoe-sterner',
+  'green pepper afficionado',
+  'red bull racing superfan',
+  'dice crafter',
+  'ambient producer',
+  'Checo Perez stan',
+  'basement-rockstar',
+  'dedicated headbanger',
+  'karaoke enthusiast',
+  'DIY music supporter',
+  'mostpit devotee',
 ]
 
 //currently can't change this or font size without breaking styling 🙃🙃
@@ -35,7 +35,10 @@ const homepagePhrases = [
 const reelItemHeightPixels = 45
 
 function getNewReelTop(max: number) {
-  return -((reelItemHeightPixels * Math.floor(Math.random() * max)) + reelItemHeightPixels / 2)
+  return -(
+    reelItemHeightPixels * Math.floor(Math.random() * max) +
+    reelItemHeightPixels / 2
+  )
 }
 
 const SlotMachineTextEffect = ({ textItems }: { textItems?: string[] }) => {
@@ -61,19 +64,30 @@ const SlotMachineTextEffect = ({ textItems }: { textItems?: string[] }) => {
   }, [])
 
   return (
-    <OuterContainer id='outer-container' aria-label='a rotating list of descriptions'>
-      <MaskContainer id='mask-container'>
-        <ReelContainer id='reel-contain er' top={reelTop}>
+    <OuterContainer
+      id="outer-container"
+      aria-label="a rotating list of descriptions"
+    >
+      <MaskContainer id="mask-container">
+        <ReelContainer id="reel-contain er" top={reelTop}>
           {textItems.map((text, index) => {
             const id = `reel-item-${index}`
-            return (<ReelItem id={id}>
-              <span style={{ fontSize: "2rem", fontWeight: "bold" }}>{text}</span>
-            </ReelItem>)
-          }
-          )}
+            return (
+              <ReelItem id={id}>
+                <span
+                  style={{
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  {text}
+                </span>
+              </ReelItem>
+            )
+          })}
         </ReelContainer>
       </MaskContainer>
-    </OuterContainer >
+    </OuterContainer>
   )
 }
 
@@ -85,12 +99,11 @@ const MaskContainer = styled.div`
   margin-top: -1rem;
   position: absolute;
   width: 100%;
-  height: ${reelItemHeightPixels}px; 
-   overflow: hidden;
+  height: ${reelItemHeightPixels}px;
+  overflow: hidden;
 `
 
 const ReelItem = styled.div`
-
   height: ${reelItemHeightPixels}px;
 `
 
