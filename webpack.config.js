@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle[contenthash].js',
+    publicPath: '/',
   },
   mode: 'development',
   module: {
@@ -48,5 +49,6 @@ module.exports = {
     hot: true,
     compress: true,
     open: true,
+    historyApiFallback: true,
   },
 }
