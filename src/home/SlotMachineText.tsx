@@ -5,19 +5,22 @@ const homepagePhrases = [
   'dungeon master',
   'barbel gremlin',
   'märzentrinker',
-  'miniature-painter',
+  'miniature painter',
   'guitarist',
   'songwriter',
   'bassist',
   'enormous nerd',
   'ex-fencer',
-  'memelord',
-  'bedroom engineer',
-  'rock-climber',
+  'ascendent memelord',
+  'orb-gazer',
+  'caster of auguries',
+  'astral projector',
+  'professional amateur',
+  'rock climber',
   'raleigh rider',
   'strategy gamer',
   'taco connoisseur',
-  'canoe-sterner',
+  'canoe sterner',
   'green pepper afficionado',
   'red bull racing superfan',
   'dice crafter',
@@ -31,7 +34,6 @@ const homepagePhrases = [
 ]
 
 //currently can't change this or font size without breaking styling 🙃🙃
-
 const reelItemHeightPixels = 45
 
 function getNewReelTop(max: number) {
