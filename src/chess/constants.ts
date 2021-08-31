@@ -1,5 +1,7 @@
 export const BOARD_WHITE = '#a1a1a1'
 export const BOARD_BLACK = '#a10005'
+export const PIECE_WHITE = 'white'
+export const PIECE_BLACK = 'black'
 
 export enum PIECES {
   WHITE_KING = '♔',
@@ -17,36 +19,31 @@ export enum PIECES {
   BLACK_PAWN = '♟︎',
 }
 
-type coordinatePoint = {
-  x: number
-  y: number
-}
-
-const startPos = new Map<coordinatePoint, PIECES>()
-startPos.set({ x: 0, y: 0 }, PIECES.WHITE_ROOK)
-startPos.set({ x: 1, y: 0 }, PIECES.WHITE_KNIGHT)
-startPos.set({ x: 2, y: 0 }, PIECES.WHITE_BISHOP)
-startPos.set({ x: 3, y: 0 }, PIECES.WHITE_QUEEN)
-startPos.set({ x: 4, y: 0 }, PIECES.WHITE_KING)
-startPos.set({ x: 5, y: 0 }, PIECES.WHITE_BISHOP)
-startPos.set({ x: 6, y: 0 }, PIECES.WHITE_KNIGHT)
-startPos.set({ x: 7, y: 0 }, PIECES.WHITE_ROOK)
+const startPos = new Map<string, PIECES>()
+startPos.set('00', PIECES.WHITE_ROOK)
+startPos.set('10', PIECES.WHITE_KNIGHT)
+startPos.set('20', PIECES.WHITE_BISHOP)
+startPos.set('30', PIECES.WHITE_QUEEN)
+startPos.set('40', PIECES.WHITE_KING)
+startPos.set('50', PIECES.WHITE_BISHOP)
+startPos.set('60', PIECES.WHITE_KNIGHT)
+startPos.set('70', PIECES.WHITE_ROOK)
 
 for (let x = 0; x < 8; x++) {
-  startPos.set({ x: x, y: 0 }, PIECES.WHITE_PAWN)
+  startPos.set(`${x}1`, PIECES.WHITE_PAWN)
 }
 
-startPos.set({ x: 0, y: 6 }, PIECES.BLACK_ROOK)
-startPos.set({ x: 1, y: 6 }, PIECES.BLACK_KNIGHT)
-startPos.set({ x: 2, y: 6 }, PIECES.BLACK_BISHOP)
-startPos.set({ x: 3, y: 6 }, PIECES.BLACK_QUEEN)
-startPos.set({ x: 4, y: 6 }, PIECES.BLACK_QUEEN)
-startPos.set({ x: 5, y: 6 }, PIECES.BLACK_BISHOP)
-startPos.set({ x: 6, y: 6 }, PIECES.BLACK_KNIGHT)
-startPos.set({ x: 7, y: 6 }, PIECES.BLACK_ROOK)
+startPos.set('07', PIECES.BLACK_ROOK)
+startPos.set('17', PIECES.BLACK_KNIGHT)
+startPos.set('27', PIECES.BLACK_BISHOP)
+startPos.set('37', PIECES.BLACK_KING)
+startPos.set('47', PIECES.BLACK_QUEEN)
+startPos.set('57', PIECES.BLACK_BISHOP)
+startPos.set('67', PIECES.BLACK_KNIGHT)
+startPos.set('77', PIECES.BLACK_ROOK)
 
 for (let x = 0; x < 8; x++) {
-  startPos.set({ x: x, y: 7 }, PIECES.BLACK_PAWN)
+  startPos.set(`${x}6`, PIECES.BLACK_PAWN)
 }
 
 export const STARTING_POSITIONS = startPos
