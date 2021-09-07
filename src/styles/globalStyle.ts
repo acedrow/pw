@@ -4,6 +4,8 @@ import theme from './theme'
 const GlobalStyle = createGlobalStyle`
   html {
     background-color: ${theme.backgroundColor} ;
+    font-family: ${theme.fontFamily};
+
   }
   a {
     text-decoration: none;

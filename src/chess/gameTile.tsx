@@ -20,13 +20,12 @@ const GameTile = ({
 }: GameTileProps) => {
   const color = isPieceWhite(contents) ? PIECE_WHITE : PIECE_BLACK
 
-  onclick = () => {
-    console.log('x, y, contents', x, y, contents)
+  const ocHandler = () => {
     clickCallback(x, y, contents)
   }
 
   return (
-    <TileContainer color={color} bgColor={bgColor}>
+    <TileContainer color={color} bgColor={bgColor} onClick={() => ocHandler()}>
       <span>{contents}</span>
     </TileContainer>
   )

@@ -8,9 +8,9 @@ import {
   PIECE_BLACK,
 } from './constants'
 import GameTile from './gameTile'
-import { isPieceWhite } from './utils'
+import { isMoveLegal, isPieceWhite } from './utils'
 
-type TileState = {
+export type TileState = {
   tileColor?: string
   containsWhitePiece?: boolean
   contents?: string
@@ -58,26 +58,34 @@ const ChessMain = () => {
   >()
 
   useEffect(() => {
-    console.log('startingTile', startingTile)
-    console.log('endingTile', endingTile)
     if (startingTile && endingTile) {
-      let newBoard = { ...board }
-      const startTile = newBoard[startingTile.x][startingTile.y]
-      const endTile = newBoard[endingTile.x][endingTile.y]
+      if (
+        isMoveLegal(
+          startingTile.x,
+          startingTile.y,
+          endingTile.x,
+          endingTile.y,
+          board
+        )
+      ) {
+        let newBoard: TileState[][] = [...board]
+        const startTile = newBoard[startingTile.x][startingTile.y]
+        const endTile = newBoard[endingTile.x][endingTile.y]
 
-      newBoard[startingTile.x][startingTile.y] = {
-        tileColor: startTile.tileColor,
-        containsWhitePiece: false,
-        contents: undefined,
+        newBoard[startingTile.x][startingTile.y] = {
+          tileColor: startTile.tileColor,
+          containsWhitePiece: false,
+          contents: undefined,
+        }
+        newBoard[endingTile.x][endingTile.y] = {
+          tileColor: endTile.tileColor,
+          containsWhitePiece: startTile.containsWhitePiece,
+          contents: startTile.contents,
+        }
+        setStartingTile(undefined)
+        setEndingTile(undefined)
+        setBoard(newBoard)
       }
-      newBoard[startingTile.x][startingTile.y] = {
-        tileColor: startTile.tileColor,
-        containsWhitePiece: startTile.containsWhitePiece,
-        contents: startTile.contents,
-      }
-      setStartingTile(undefined)
-      setEndingTile(undefined)
-      setBoard(newBoard)
     }
   }, [startingTile, endingTile])
 
@@ -86,8 +94,7 @@ const ChessMain = () => {
     y: number,
     contents: string | undefined
   ) => {
-    console.log('x', x, 'y', y)
-    if (contents) {
+    if (contents && !startingTile) {
       setStartingTile({ x: x, y: y, contents: contents })
     } else if (startingTile) {
       setEndingTile({ x: x, y: y, contents: undefined })
@@ -96,8 +103,6 @@ const ChessMain = () => {
 
   return (
     <>
-      <p>starting tile: {JSON.stringify(startingTile)}</p>
-      <p>ending tile: {JSON.stringify(endingTile)}</p>
       <RowHolder>
         {board?.map((row, xIndex) => (
           <ColHolder>
