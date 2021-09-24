@@ -1,4 +1,25 @@
-import ReactDOM from "react-dom"
-import Homepage from "./home/homepage"
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import ChessMain from './chess'
+import Homepage from './home/homepage'
+import Skunkworks from './skunkworks'
+import GlobalStyle from './styles/globalStyle'
 
-ReactDOM.render(<Homepage />, document.getElementById("root"))
+ReactDOM.render(
+  <Router>
+    <GlobalStyle />
+
+    <Switch>
+      <Route exact path="/chess">
+        <ChessMain />
+      </Route>
+      <Route exact path="/sw">
+        <Skunkworks />
+      </Route>
+      <Route exact path="/">
+        <Homepage />
+      </Route>
+    </Switch>
+  </Router>,
+  document.getElementById('root')
+)
