@@ -4,8 +4,7 @@ const theme = {
   fontFamily: 'Source Sans Pro,sans-serif',
 }
 
-const mdTheme = {
-  /* Color Theme Swatches in Hex */
+export const mdTheme = {
   mdRed: '#BE5E6F',
   mdPurple: '#5F508A',
   mdLavender: '#A19AC1',

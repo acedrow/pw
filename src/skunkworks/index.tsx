@@ -1,14 +1,21 @@
-import styled from 'styled-components'
-import GameTile from '../chess/gameTile'
+import { mdTheme } from '../styles/theme'
+import TestTile from './TestTile'
 
 const Skunkworks = () => {
   return (
     <>
       <h1 style={{ color: 'white' }}>WELCOME TO THA DUNK ZONE BAYBEEE</h1>
+      <div>
+        <TestTile bgColor={mdTheme.mdPurple} />
+        <TestTile bgColor={mdTheme.mdLavender} />
+        <TestTile bgColor={mdTheme.mdYellow} />
+        <TestTile bgColor={mdTheme.mdOrange} />
+        <TestTile bgColor={mdTheme.mdRed} />
+        <TestTile bgColor={'#70824a'} />
+        <TestTile bgColor={mdTheme.mdYellow} bgColor2={mdTheme.mdLavender} />
+      </div>
     </>
   )
 }
-
-const TestTile = styled.div``
 
 export default Skunkworks
