@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     background-color: ${theme.backgroundColor} ;
     font-family: ${theme.fontFamily};
+    color: ${theme.textColor};
 
   }
   a {
