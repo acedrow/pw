@@ -1,0 +1,9049 @@
+{
+ "gear_links": [
+  {
+   "name": "Almanac",
+   "url": "https://kingdomdeath.fandom.com/wiki/Almanac",
+   "card_name": "Almanac",
+   "card_text": "When you depart, gain +2 insanity. You cannot gain disorders.",
+   "keywords": "item, soluble, flammable",
+   "craft_blurb": "The Almanac may be crafted once the Barber Surgeon settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "2x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Soluble Gear"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Right Blue Affinities"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Pictograph"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Brain Mint",
+   "url": "https://kingdomdeath.fandom.com/wiki/Brain_Mint",
+   "card_name": "Brain Mint",
+   "card_text": "Consume: Remove all your tokens and stand up. You may use this while knocked down. Use once per showdown.",
+   "keywords": "item, consumable",
+   "craft_blurb": "The Brain Mint may be crafted once the Barber Surgeon settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "1x Screaming Brain"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Consumables"
+    },
+    {
+     "name": "Uses for Screaming Brain"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Up Green Affinities"
+    },
+    {
+     "name": "Use Once per Showdown"
+    },
+    {
+     "name": "Core Game Consumables"
+    },
+    {
+     "name": "Consumable Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bug Trap",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bug_Trap",
+   "card_name": "Bug Trap",
+   "card_text": "At the start of the showdown, roll 1d10. On a 3+, add a Bug Patch terrain card to the showdown board.",
+   "keywords": "item, soluble",
+   "craft_blurb": "Bug Trap may be crafted once the Barber Surgeon settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "1x Muscly Gums"
+    },
+    {
+     "name": "2x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Soluble Gear"
+    },
+    {
+     "name": "Uses for Muscly Gums"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Elder Earrings",
+   "url": "https://kingdomdeath.fandom.com/wiki/Elder_Earrings",
+   "card_name": "Elder Earrings",
+   "card_text": "At the start of the showdown, gain +2 survival.",
+   "keywords": "item, jewelry",
+   "craft_blurb": "+1 Hunt XP after a showdown.",
+   "crafting_reqs": [
+    {
+     "name": "1x Scrap"
+    },
+    {
+     "name": "1x Shank Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Uses for Shank Bone"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "First Aid Kit",
+   "url": "https://kingdomdeath.fandom.com/wiki/First_Aid_Kit",
+   "card_name": "First Aid Kit",
+   "card_text": "On Arrival, all survivors gain + 3 survival.",
+   "keywords": "item, heavy",
+   "craft_blurb": ": Remove 1 bleeding or negative attribute token from yourself or an adjacent survivor.",
+   "crafting_reqs": [
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "2x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Up Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Musk Bomb",
+   "url": "https://kingdomdeath.fandom.com/wiki/Musk_Bomb",
+   "card_name": "Musk Bomb",
+   "card_text": "If adjacent to monster when it draws , you may spend 2 survival and archive Musk bomb to roll 1d10. On a 3+, discard without playing it.",
+   "keywords": "item, stinky, thrown, fragile",
+   "craft_blurb": "Musk Bomb may be crafted once the Barber Surgeon settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "7x Resources"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Stinky Gear"
+    },
+    {
+     "name": "Thrown Gear"
+    },
+    {
+     "name": "Fragile Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Uses for Pottery"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Scavenger Kit",
+   "url": "https://kingdomdeath.fandom.com/wiki/Scavenger_Kit",
+   "card_name": "Scavenger Kit",
+   "card_text": "Unique\nWhen you defeat a monster, gain either 1 random basic resource or 1 random monster resource from that monster's resource deck.",
+   "keywords": "item, heavy",
+   "special_rules": "Unique",
+   "craft_blurb": "Scavenger Kit may be crafted once the Barber Surgeon settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Unique"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Scrap"
+    },
+    {
+     "name": "1x Pelt"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Uses for Pelt"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Speed Powder",
+   "url": "https://kingdomdeath.fandom.com/wiki/Speed_Powder",
+   "card_name": "Speed Powder",
+   "card_text": ": Suffer 2 brain damage. Gain +1 speed token. Use once per showdown.",
+   "keywords": "item, soluble",
+   "craft_blurb": "Speed Powder may be crafted once the Barber Surgeon settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "1x Second Heart"
+    },
+    {
+     "name": "2x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Right Blue Affinities"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Soluble Gear"
+    },
+    {
+     "name": "Use Once per Showdown"
+    },
+    {
+     "name": "Uses for Second Heart"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Barber Surgeon Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Beacon Shield",
+   "url": "https://kingdomdeath.fandom.com/wiki/Beacon_Shield",
+   "card_name": "Beacon Shield",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "5",
+   "card_text": "Add 2 to all hit locations.",
+   "keywords": "weapon, melee, shield, metal, heavy",
+   "special_rules": "Block 2",
+   "craft_blurb": "Block 2: Spend to ignore 2 hits the next time you are attacked. Lasts until your next act. You cannot use block more than once per attack.",
+   "armor_points": [
+    {
+     "name": "Block 2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Iron"
+    },
+    {
+     "name": "3x Leather"
+    },
+    {
+     "name": "4x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Shields"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Block"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Dragon Slayer",
+   "url": "https://kingdomdeath.fandom.com/wiki/Dragon_Slayer",
+   "card_name": "Dragon Slayer",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "9",
+   "card_text": "Frail, Slow, Sharp, Devastating 1\nEarly Iron: When an attack roll result is 1, cancel any hits and end the attack.",
+   "keywords": "weapon, melee, grand weapon, two-handed, heavy, metal",
+   "special_rules": "Frail, Slow, Sharp, Devastating 1, Early Iron",
+   "craft_blurb": "Dragon Slayer may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Frail"
+    },
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Devastating 1"
+    },
+    {
+     "name": "Early Iron"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "5x Iron"
+    },
+    {
+     "name": "3x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Grand Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Devastating Gear"
+    },
+    {
+     "name": "Gear with Early Iron"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Uses for Paint"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Cuirass",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Cuirass",
+   "card_name": "Lantern Cuirass",
+   "card_text": "-2 movement.",
+   "keywords": "armor, set, metal, heavy",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "Affinity Bonus: When you depart, add",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "5"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Iron"
+    },
+    {
+     "name": "5x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Body Armor"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Lantern Armor"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Dagger",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Dagger",
+   "card_name": "Lantern Dagger",
+   "speed": "2",
+   "accuracy": "7+",
+   "strength": "1",
+   "card_text": "Paired\nSharp: Add 1d10 Strength to each wound attempt.\nEarly Iron: When an attack roll result is 1, cancel any hits and end the attack.",
+   "keywords": "weapon, melee, dagger, finesse, metal",
+   "special_rules": "Sharp, Early Iron, Paired",
+   "craft_blurb": "Lantern Dagger may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Early Iron"
+    },
+    {
+     "name": "Paired"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "4x Leather"
+    },
+    {
+     "name": "2x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Daggers"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Gear with Early Iron"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Paired Weapons"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Gauntlets",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Gauntlets",
+   "card_name": "Lantern Gauntlets",
+   "card_text": "Affinity Bonus: +2 accuracy with club weapons.",
+   "keywords": "armor, set, metal, heavy",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "Lantern Gauntlets may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "5"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Iron"
+    },
+    {
+     "name": "6x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Arm Armor"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Glaive",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Glaive",
+   "card_name": "Lantern Glaive",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "4",
+   "card_text": "Reach 2\nSharp: Add 1d10 Strength to each wound attempt.\nEarly Iron: When an attack roll result is 1, cancel any hits and end the attack.",
+   "keywords": "weapon, melee, spear, axe, two-handed, finesse, metal",
+   "special_rules": "Sharp, Early Iron, Reach 2",
+   "craft_blurb": "Lantern Glaive may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Early Iron"
+    },
+    {
+     "name": "Reach 2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Iron"
+    },
+    {
+     "name": "2x Leather"
+    },
+    {
+     "name": "4x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Axes"
+    },
+    {
+     "name": "Spears"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Gear with Early Iron"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Greaves",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Greaves",
+   "card_name": "Lantern Greaves",
+   "card_text": "Affinity Bonus: +2 Movement.",
+   "keywords": "armor, set, metal, heavy",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "Lantern Greaves may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "5"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "5x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Leg Armor"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Lantern Armor"
+    },
+    {
+     "name": "Warlord Armor"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Helm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Helm",
+   "card_name": "Lantern Helm",
+   "card_text": "Affinity Bonus: Ear Plugs. You are deaf. -1 accuracy.",
+   "keywords": "armor, set, metal, heavy",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "Lantern Helm may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "5"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "7x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Lantern Armor"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Mail",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Mail",
+   "card_name": "Lantern Mail",
+   "card_text": "Lantern Mail may be crafted once the Blacksmith settlement location has been built.",
+   "keywords": "armor, set, metal, heavy",
+   "special_rules": "5",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "5"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "5x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Waist Armor"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Lantern Armor"
+    },
+    {
+     "name": "Warlord Armor"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Sword",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Sword",
+   "card_name": "Lantern Sword",
+   "speed": "3",
+   "accuracy": "5+",
+   "strength": "3",
+   "card_text": "Sharp: Add 1d10 Strength to each wound attempt.\nEarly Iron: When an attack roll result is 1, cancel any hits and end the attack.",
+   "keywords": "weapon, melee, sword, finesse, metal",
+   "special_rules": "Sharp, Early Iron",
+   "craft_blurb": "The Lantern Sword may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Early Iron"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "5x Bone"
+    },
+    {
+     "name": "3x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Early Iron"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Perfect Slayer",
+   "url": "https://kingdomdeath.fandom.com/wiki/Perfect_Slayer",
+   "card_name": "Perfect Slayer",
+   "speed": "3",
+   "accuracy": "6+",
+   "strength": "14",
+   "card_text": "Perfect Slayer is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, grand weapon, two-handed, sword, heavy, finesse, metal",
+   "special_rules": "Slow, Sharp, Devastating 2, Irreplaceable",
+   "craft_blurb": "Slow, Sharp, Devastating 2, Irreplaceable\n-2 movement.",
+   "armor_points": [
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Devastating 2"
+    },
+    {
+     "name": "Irreplaceable"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "9x Iron"
+    },
+    {
+     "name": "3x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Grand Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Devastating Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Down Red Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Ring Whip",
+   "url": "https://kingdomdeath.fandom.com/wiki/Ring_Whip",
+   "card_name": "Ring Whip",
+   "speed": "2",
+   "accuracy": "5+",
+   "strength": "0",
+   "card_text": "Sharp, Reach 2\nEarly Iron: When an attack roll result is 1, cancel any hits and end the attack.",
+   "keywords": "weapon, melee, whip, finesse, metal",
+   "special_rules": "Sharp, Reach 2, Early Iron",
+   "craft_blurb": "The Ring Whip may be crafted once the Blacksmith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Reach 2"
+    },
+    {
+     "name": "Early Iron"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "3x Organ"
+    },
+    {
+     "name": "3x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Whips"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Gear with Early Iron"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Scrap Shield",
+   "url": "https://kingdomdeath.fandom.com/wiki/Scrap_Shield",
+   "card_name": "Scrap Shield",
+   "speed": "2",
+   "accuracy": "7+",
+   "strength": "3",
+   "card_text": "Add 1 to all hit locations.",
+   "keywords": "weapon, melee, shield, bone, metal",
+   "special_rules": "Block 1",
+   "craft_blurb": "Block 1: Spend to ignore a hit the next time you are attacked. Lasts until your next act. You cannot use block more than once per attack.",
+   "armor_points": [
+    {
+     "name": "Block 1"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "3x Bone"
+    },
+    {
+     "name": "2x Scrap"
+    },
+    {
+     "name": "3x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Shields"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Blacksmith Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bone Axe",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Axe",
+   "card_name": "Bone Axe",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "3",
+   "card_text": "Bone Axe is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, axe, bone",
+   "special_rules": "Frail, Savage",
+   "craft_blurb": "The Bone Axe may be crafted once the Bone Smith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Frail"
+    },
+    {
+     "name": "Savage"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    },
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Axes"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bone Blade",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Blade",
+   "card_name": "Bone Blade",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "2",
+   "card_text": "Bone Blade is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, sword, bone",
+   "special_rules": "Frail",
+   "craft_blurb": "Frail: When you attempt to wound a super-dense hit location, this weapon breaks. Archive this card at the end of the attack.",
+   "armor_points": [
+    {
+     "name": "Frail"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bone Club",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Club",
+   "card_name": "Bone Club",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "5",
+   "card_text": "Bone Club is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, club, two-handed, heavy, bone",
+   "special_rules": "Cumbersome",
+   "craft_blurb": "Cumbersome: Spend as an additional cost to activate this weapon. Ignore Cumbersome if this weapon is activated indirectly (Pounce, Charge, etc).",
+   "armor_points": [
+    {
+     "name": "Cumbersome"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "3x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Clubs"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bone Dagger",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Dagger",
+   "card_name": "Bone Dagger",
+   "speed": "3",
+   "accuracy": "7+",
+   "strength": "1",
+   "card_text": "Bone Dagger is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, dagger, bone",
+   "special_rules": "Perfect Hit",
+   "craft_blurb": "Paired\nOn a Perfect Hit, gain +1 survival.\nPerfect Hit: An Attack Roll result of a lantern 10.",
+   "armor_points": [
+    {
+     "name": "Perfect Hit"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Daggers"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Up Red Affinities"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bone Darts",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Darts",
+   "card_name": "Bone Darts",
+   "speed": "1",
+   "accuracy": "7+",
+   "strength": "3",
+   "card_text": "Bone Darts is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, ranged, thrown, bone",
+   "special_rules": "Frail, Range 6",
+   "craft_blurb": "Range 6\nFrail: When you attempt to wound a super-dense hit location, this weapon breaks. Archive this card at the end of the attack.",
+   "armor_points": [
+    {
+     "name": "Frail"
+    },
+    {
+     "name": "Range 6"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Thrown Gear"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Ranged Weapons"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bone Pickaxe",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Pickaxe",
+   "card_name": "Bone Pickaxe",
+   "speed": "1",
+   "accuracy": "8+",
+   "strength": "2",
+   "card_text": "After Hunt phase setup, place the Mineral Gathering event on any hunt space.",
+   "keywords": "item, tool, pickaxe, bone",
+   "craft_blurb": "The Bone Pickaxe may be crafted once the Bone Smith settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    },
+    {
+     "name": "1x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Tools"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Up Green Affinities"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Uses for Ammonia"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Pickaxes"
+    }
+   ]
+  },
+  {
+   "name": "Bone Sickle",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Sickle",
+   "card_name": "Bone Sickle",
+   "speed": "2",
+   "accuracy": "8+",
+   "strength": "1",
+   "card_text": "Bone Sickle is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, tool, sickle, bone",
+   "craft_blurb": "After Hunt phase setup, place the Herb Gathering event on any hunt space.",
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    },
+    {
+     "name": "1x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Up Green Affinities"
+    },
+    {
+     "name": "Tools"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Uses for Ammonia"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Sickles"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Uses for Sickle"
+    }
+   ]
+  },
+  {
+   "name": "Skull Helm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Skull_Helm",
+   "card_name": "Skull Helm",
+   "card_text": "When you suffer a severe head injury, the Skull Helm is destroyed. Archive this card.",
+   "keywords": "armor, bone, fragile",
+   "special_rules": "3",
+   "craft_blurb": "The Skull Helm may be crafted once the Bone Smith settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Skull or 2x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Fragile Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Down Red Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Bone Smith Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Brawler Armor"
+    }
+   ]
+  },
+  {
+   "name": "Cat Eye Circlet",
+   "url": "https://kingdomdeath.fandom.com/wiki/Cat_Eye_Circlet",
+   "card_name": "Cat Eye Circlet",
+   "card_text": ": Reveal the next 3 monster hit locations and put them back in any order.",
+   "keywords": "item, jewelry, other",
+   "craft_blurb": "The Cat Eye Circlet may be crafted once the Catarium settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "1x Eye of Cat"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Uses for Eye of Cat"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Telcric Eye Tac (Gear)"
+    }
+   ]
+  },
+  {
+   "name": "Cat Fang Knife",
+   "url": "https://kingdomdeath.fandom.com/wiki/Cat_Fang_Knife",
+   "card_name": "Cat Fang Knife",
+   "speed": "3",
+   "accuracy": "6+",
+   "strength": "2",
+   "card_text": "Affinity Bonus: On a Perfect hit, gain +1 strength token. When knocked down, remove all your +1 strength tokens.",
+   "keywords": "weapon, melee, dagger, bone",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Cat Fang Knife may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Elder Cat Teeth"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Daggers"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Up Red Affinities"
+    },
+    {
+     "name": "Gear with Down Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Uses for Elder Cat Teeth"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "When you are knocked down"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Cat Gut Bow",
+   "url": "https://kingdomdeath.fandom.com/wiki/Cat_Gut_Bow",
+   "card_name": "Cat Gut Bow",
+   "speed": "2",
+   "accuracy": "7+",
+   "strength": "3",
+   "card_text": "Cumbersome, Range 6\nAim: When you attack, before rolling to hit, you may reduce the speed of this weapon by 1 to gain +2 accuracy for that attack.",
+   "keywords": "weapon, ranged, bow, two-handed",
+   "special_rules": "Cumbersome, Range 6, Aim",
+   "craft_blurb": "The Cat Gut Bow may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Cumbersome"
+    },
+    {
+     "name": "Range 6"
+    },
+    {
+     "name": "Aim"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Sinew"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Bows"
+    },
+    {
+     "name": "Ranged Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Cumbersome Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Uses for Sinew"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Claw Head Arrow",
+   "url": "https://kingdomdeath.fandom.com/wiki/Claw_Head_Arrow",
+   "card_name": "Claw Head Arrow",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "6",
+   "card_text": "Slow\nAmmo - Bow: You must have a bow in your gear grid to activate this.",
+   "keywords": "item, ammunition, arrow",
+   "special_rules": "Slow, Ammo - Bow",
+   "craft_blurb": "If you hit, monster gains -1 evasion token. Use once per showdown.",
+   "armor_points": [
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Ammo - Bow"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lion Claw"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Ammunition"
+    },
+    {
+     "name": "Arrows"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Right Blue Affinities"
+    },
+    {
+     "name": "Uses for Lion Claw"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Use Once per Showdown"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Frenzy Drink",
+   "url": "https://kingdomdeath.fandom.com/wiki/Frenzy_Drink",
+   "card_name": "Frenzy Drink",
+   "card_text": "Consume: Suffer Frenzy brain trauma. Can be used once per showdown.",
+   "keywords": "item, consumable, fragile",
+   "special_rules": "Consume",
+   "craft_blurb": "The Frenzy Drink may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Consume"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lion Testes"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Consumables"
+    },
+    {
+     "name": "Fragile Gear"
+    },
+    {
+     "name": "Use Once per Showdown"
+    },
+    {
+     "name": "Uses for Lion Testes"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Core Game Consumables"
+    },
+    {
+     "name": "Consumable Gear"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "King Spear",
+   "url": "https://kingdomdeath.fandom.com/wiki/King_Spear",
+   "card_name": "King Spear",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "3",
+   "card_text": "Reach 2: May attack from 2 spaces away.",
+   "keywords": "weapon, melee, spear, heavy, two-handed",
+   "special_rules": "Reach 2",
+   "craft_blurb": "The King Spear may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Reach 2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lion Claw"
+    },
+    {
+     "name": "1x Great Cat Bones"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Spears"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Uses for Lion Claw"
+    },
+    {
+     "name": "Uses for Great Cat Bones"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lion Beast Katar",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lion_Beast_Katar",
+   "card_name": "Lion Beast Katar",
+   "speed": "2",
+   "accuracy": "7+",
+   "strength": "3",
+   "card_text": "Deadly: +1 luck with this weapon.\nPaired: When you attack, add the speed of a 2nd Lion Beast Katar in your gear grid.",
+   "keywords": "weapon, melee, katar",
+   "special_rules": "Deadly, Paired",
+   "craft_blurb": "The may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Deadly"
+    },
+    {
+     "name": "Paired"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lion Claw"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Katars"
+    },
+    {
+     "name": "Deadly Gear"
+    },
+    {
+     "name": "Paired Gear"
+    },
+    {
+     "name": "Uses for Lion Claw"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lion Headdress",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lion_Headdress",
+   "card_name": "Lion Headdress",
+   "card_text": "Accessory: You may wear this in addition to 1 armor at this hit location.",
+   "keywords": "item, flammable",
+   "special_rules": "Accessory",
+   "craft_blurb": "The Lion Headdress may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "1"
+    },
+    {
+     "name": "Accessory"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Shimmering Mane"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "Accessories"
+    },
+    {
+     "name": "Uses for Shimmering Mane"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lion Skin Cloak",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lion_Skin_Cloak",
+   "card_name": "Lion Skin Cloak",
+   "card_text": "Reduce damage from every hit suffered by 1 to a minimum of 1.",
+   "keywords": "armor, fur, heavy, bone, flammable",
+   "special_rules": "0",
+   "craft_blurb": "The Lion Skin Cloak may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "0"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x White Fur"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Body Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Uses for White Fur"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Whisker Harp",
+   "url": "https://kingdomdeath.fandom.com/wiki/Whisker_Harp",
+   "card_name": "Whisker Harp",
+   "card_text": "On Arrival, all survivors gain +1 survival.",
+   "keywords": "item, instrument, noisy",
+   "craft_blurb": ": Strum. Roll 1d10. On a result of 6+ discard 1 mood currently in play.",
+   "crafting_reqs": [
+    {
+     "name": "1x Golden Whiskers"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Instruments"
+    },
+    {
+     "name": "Noisy Gear"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Uses for Golden Whiskers"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "White Lion Boots",
+   "url": "https://kingdomdeath.fandom.com/wiki/White_Lion_Boots",
+   "card_name": "White Lion Boots",
+   "card_text": "Affinity Bonus: +1 Movement.",
+   "keywords": "armor, set, fur, heavy",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The White Lion Boots may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x White Fur"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Leg Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear with Down Red Affinities"
+    },
+    {
+     "name": "Uses for White Fur"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear with Movement Bonus"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "White Lion Armor"
+    }
+   ]
+  },
+  {
+   "name": "White Lion Coat",
+   "url": "https://kingdomdeath.fandom.com/wiki/White_Lion_Coat",
+   "card_name": "White Lion Coat",
+   "card_text": "Pounce: Spend and to move 3 spaces in a straight line. Then, if you moved 3 spaces, activate a melee weapon with +1 strength.",
+   "keywords": "armor, set, fur, heavy",
+   "special_rules": "Pounce",
+   "craft_blurb": "The White Lion Coat may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Pounce"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x White Fur"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Body Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Uses for White Fur"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "White Lion Armor"
+    }
+   ]
+  },
+  {
+   "name": "White Lion Gauntlets",
+   "url": "https://kingdomdeath.fandom.com/wiki/White_Lion_Gauntlets",
+   "card_name": "White Lion Gauntlet",
+   "card_text": "When you Pounce, gain +1 accuracy for your next attack this turn.",
+   "keywords": "armor, set, fur, heavy",
+   "special_rules": "2",
+   "craft_blurb": "The White Lion Gauntlets may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x White Fur"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Arm Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Uses for White Fur"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Brawler Armor"
+    },
+    {
+     "name": "White Lion Armor"
+    }
+   ]
+  },
+  {
+   "name": "White Lion Helm",
+   "url": "https://kingdomdeath.fandom.com/wiki/White_Lion_Helm",
+   "card_name": "White Lion Helm",
+   "card_text": "Affinity Bonus: and 1 survival: Roar. Non-Deaf Insane survivors gain +2 strength until the end of the round. All other survivors gain +1 insanity.",
+   "keywords": "armor, set, fur, heavy",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The White Lion Helm may be crafted once the Catarium settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x White Fur"
+    },
+    {
+     "name": "1x Great Cat Bones"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Uses for White Fur"
+    },
+    {
+     "name": "Uses for Great Cat Bones"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "White Lion Armor"
+    }
+   ]
+  },
+  {
+   "name": "White Lion Skirt",
+   "url": "https://kingdomdeath.fandom.com/wiki/White_Lion_Skirt",
+   "card_name": "White Lion Skirt",
+   "card_text": "The White Lion Skirt may be crafted once the Catarium settlement location has been built.",
+   "keywords": "armor, set, fur, heavy",
+   "special_rules": "2",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x White Fur"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Waist Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Uses for White Fur"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Catarium Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "White Lion Armor"
+    }
+   ]
+  },
+  {
+   "name": "Final Lantern",
+   "url": "https://kingdomdeath.fandom.com/wiki/Final_Lantern",
+   "card_name": "Final Lantern",
+   "card_text": "Vital\nOn Arrival, all survivors gain the Horripilation survivor status card. (See Watcher's Ai deck). When not insane, flip this card.",
+   "keywords": "item, other, lantern1",
+   "special_rules": "Vital",
+   "craft_blurb": "On Arrival, all survivors gain the Horripilation survivor status card. (See Watcher's Ai deck). When insane, flip this card.",
+   "armor_points": [
+    {
+     "name": "Vital"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Open"
+    },
+    {
+     "name": "Closed"
+    },
+    {
+     "name": "Blackout"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Core Game Rare Gear"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Vital Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Up Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    }
+   ]
+  },
+  {
+   "name": "Oxidized Beacon Shield",
+   "url": "https://kingdomdeath.fandom.com/wiki/Oxidized_Beacon_Shield",
+   "card_name": "Oxidized Beacon Shield",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "6",
+   "card_text": "Add 2 to all hit locations.",
+   "keywords": "weapon, melee, shield, metal, heavy",
+   "special_rules": "Deflect 2",
+   "craft_blurb": "Deflect 2: Spend , you now have exactly 2 deflect tokens. The next 2 times you are hit, ignore a hit and lose 1 deflect token.",
+   "armor_points": [
+    {
+     "name": "Deflect 2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Beacon Shield"
+    },
+    {
+     "name": "2x Iron"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Exhausted Lantern Hoard Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Shields"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Gear with Deflect"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Black Lichen"
+    },
+    {
+     "name": "Uses for Cocoon Membrane"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Oxidized Lantern Dagger",
+   "url": "https://kingdomdeath.fandom.com/wiki/Oxidized_Lantern_Dagger",
+   "card_name": "Oxidized Lantern Dagger",
+   "speed": "3",
+   "accuracy": "6+",
+   "strength": "4",
+   "card_text": "Sharp, Paired\nAffinity Bonus: On a Perfect hit, gain +1 survival.",
+   "keywords": "weapon, melee, dagger, finesse, metal",
+   "special_rules": "Sharp, Paired, Affinity Bonus",
+   "craft_blurb": "Oxidized Lantern Dagger may be crafted once the Exhausted Lantern Hoard settlement location has been acquired.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Paired"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lantern Dagger"
+    },
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "4x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Exhausted Lantern Hoard Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Daggers"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Black Lichen"
+    },
+    {
+     "name": "Uses for Cocoon Membrane"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Paired Weapons"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Oxidized Lantern Glaive",
+   "url": "https://kingdomdeath.fandom.com/wiki/Oxidized_Lantern_Glaive",
+   "card_name": "Oxidized Lantern Glaive",
+   "speed": "2",
+   "accuracy": "5+",
+   "strength": "6",
+   "card_text": "Sharp, Reach 2\nAffinity Bonus: On a Perfect hit, the edge sharpens. This weapon gains +4 strength for this attack.",
+   "keywords": "weapon, melee, spear, axe,\ntwo-handed, finesse, metal",
+   "special_rules": "Sharp, Reach 2, Affinity Bonus",
+   "craft_blurb": "Oxidized Lantern Glaive may be crafted once the Exhausted Lantern Hoard settlement location has been acquired.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Reach 2"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lantern Glaive"
+    },
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "4x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Exhausted Lantern Hoard Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Axes"
+    },
+    {
+     "name": "Spears"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Black Lichen"
+    },
+    {
+     "name": "Uses for Cocoon Membrane"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Oxidized Lantern Helm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Oxidized_Lantern_Helm",
+   "card_name": "Oxidized Lantern Helm",
+   "card_text": "Outfit\nAffinity Bonus: If you are not deaf, you may ignore effects that target non-deaf survivors.",
+   "keywords": "armor, set, metal",
+   "special_rules": "Outfit, Affinity Bonus",
+   "craft_blurb": "Oxidized Lantern Helm may be crafted once the Exhausted Lantern Hoard settlement location has been acquired.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "6"
+    },
+    {
+     "name": "Outfit"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lantern Helm"
+    },
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "4x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Outfits"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    }
+   ]
+  },
+  {
+   "name": "Oxidized Lantern Sword",
+   "url": "https://kingdomdeath.fandom.com/wiki/Oxidized_Lantern_Sword",
+   "card_name": "Oxidized Lantern Sword",
+   "speed": "3",
+   "accuracy": "5+",
+   "strength": "5",
+   "card_text": "Sharp\nDeflect 1: Spend . You now have exactly a deflect tokens. The next time you are hit, ignore a hit and lose 1 deflect token.",
+   "keywords": "weapon, melee, sword,\nfinesse, metal",
+   "special_rules": "Sharp, Deflect 1",
+   "craft_blurb": "Oxidized Lantern Sword may be crafted once the Exhausted Lantern Hoard settlement location has been acquired.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Deflect 1"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Lantern Sword"
+    },
+    {
+     "name": "1x Lantern Tube"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Exhausted Lantern Hoard Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Gear with Deflect"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Black Lichen"
+    },
+    {
+     "name": "Uses for Cocoon Membrane"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Oxidized Ring Whip",
+   "url": "https://kingdomdeath.fandom.com/wiki/Oxidized_Ring_Whip",
+   "card_name": "Oxidized Ring Whip",
+   "speed": "2",
+   "accuracy": "5+",
+   "strength": "3",
+   "card_text": "Sharp, Reach 2\nAffinity Bonus: Gains Provoke (see Rawhide Whip).",
+   "keywords": "weapon, melee, whip, finesse, metal",
+   "special_rules": "Sharp, Reach, Affinity Bonus",
+   "craft_blurb": "Oxidized Ring Whip may be crafted once the Exhausted Lantern Hoard settlement location has been acquired.",
+   "armor_points": [
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Reach"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Ring Whip"
+    },
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Whips"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    }
+   ]
+  },
+  {
+   "name": "Survivors' Lantern",
+   "url": "https://kingdomdeath.fandom.com/wiki/Survivors%27_Lantern",
+   "card_name": "Survivors' Lantern",
+   "card_text": "Survivors' Lantern may be crafted once the Exhausted Lantern Hoard settlement location has been acquired.",
+   "keywords": "item, lantern",
+   "craft_blurb": "<img src=\"https://vignette.wikia.nocookie.net/kingdomdeath/images/9/96/Lock.png/revision/latest/scale-to-width-down/30?cb=20190908130932\" alt=\"Lock\" class=\"\" data-image-key=\"Lock.png\" data-image-name=\"Lock.png\" width=\"30\" height=\"28\"> Final Lantern required",
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Lanterns"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    }
+   ]
+  },
+  {
+   "name": "Hunter Whip",
+   "url": "https://kingdomdeath.fandom.com/wiki/Hunter_Whip",
+   "card_name": "Hunter Whip",
+   "speed": "3",
+   "accuracy": "6+",
+   "strength": "3",
+   "card_text": "Affinity Bonus: On a Perfect hit, discard 1 mood in play.",
+   "keywords": "weapon, melee, whip, leather",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Hunter Whip may be crafted once the Leather Worker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Leather"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Whips"
+    },
+    {
+     "name": "Leather Gear"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Right Blue Affinities"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Leather Worker Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Leather Boots",
+   "url": "https://kingdomdeath.fandom.com/wiki/Leather_Boots",
+   "card_name": "Leather Boots",
+   "card_text": "Affinity Bonus: At the end of your act, you may move 1 space.",
+   "keywords": "armor, set, leather",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Leather Boots may be crafted once the Leather Worker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Leg Armor"
+    },
+    {
+     "name": "Leather Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Leather Worker Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Leather Armor"
+    },
+    {
+     "name": "Dancer Armor"
+    }
+   ]
+  },
+  {
+   "name": "Leather Bracers",
+   "url": "https://kingdomdeath.fandom.com/wiki/Leather_Bracers",
+   "card_name": "Leather Bracers",
+   "card_text": "When you depart, gain +2 survival.",
+   "keywords": "armor, set, leather",
+   "special_rules": "3",
+   "craft_blurb": "The Leather Bracers may be crafted once the Leather Worker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Arm Armor"
+    },
+    {
+     "name": "Leather Gear"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Leather Worker Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Leather Armor"
+    },
+    {
+     "name": "Warlord Armor"
+    }
+   ]
+  },
+  {
+   "name": "Leather Cuirass",
+   "url": "https://kingdomdeath.fandom.com/wiki/Leather_Cuirass",
+   "card_name": "Leather Cuirass",
+   "card_text": "The Leather Cuirass may be crafted once the Leather Worker settlement location has been built.",
+   "keywords": "armor, set, leather",
+   "special_rules": "3",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Body Armor"
+    },
+    {
+     "name": "Leather Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Up Red Affinities"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Leather Worker Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Leather Armor"
+    }
+   ]
+  },
+  {
+   "name": "Leather Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/Leather_Mask",
+   "card_name": "Leather Mask",
+   "card_text": "When you depart, gain +2 insanity.",
+   "keywords": "armor, set, leather",
+   "special_rules": "3",
+   "craft_blurb": "The Leather Mask may be crafted once the Leather Worker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Leather Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Down Red Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Leather Worker Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Leather Armor"
+    }
+   ]
+  },
+  {
+   "name": "Leather Skirt",
+   "url": "https://kingdomdeath.fandom.com/wiki/Leather_Skirt",
+   "card_name": "Leather Skirt",
+   "card_text": "The Leather Skirt may be crafted once the Leather Worker settlement location has been built.",
+   "keywords": "armor, set, leather",
+   "special_rules": "3",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Leather"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Waist Armor"
+    },
+    {
+     "name": "Leather Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Leather Worker Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Leather Armor"
+    }
+   ]
+  },
+  {
+   "name": "Round Leather Shield",
+   "url": "https://kingdomdeath.fandom.com/wiki/Round_Leather_Shield",
+   "card_name": "Round Leather Shield",
+   "speed": "1",
+   "accuracy": "8+",
+   "strength": "1",
+   "card_text": "Round Leather Shield is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, shield, leather",
+   "special_rules": "Block 1",
+   "craft_blurb": "Add 1 to all hit locations.",
+   "armor_points": [
+    {
+     "name": "Block 1"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Bone"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Shields"
+    },
+    {
+     "name": "Leather Gear"
+    },
+    {
+     "name": "Gear with Block"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Up Green Affinities"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Leather Worker Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Antelope Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/Antelope_Mask",
+   "card_name": "Antelope Mask",
+   "card_text": "Unique, Irreplaceable, Accessory\nAffinity Bonus: At the start of your act, if insane, gain +1 .",
+   "keywords": "item, mask, bone, other",
+   "special_rules": "Unique, Irreplaceable, Accessory, Affinity Bonus",
+   "craft_blurb": "The Antelope Mask may be crafted once the Mask Maker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Accessory"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    },
+    {
+     "name": "1x Pelt"
+    },
+    {
+     "name": "6x Bone"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Masks"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Accessories"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Uses for Pelt"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Mask Maker Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Death Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/Death_Mask",
+   "card_name": "Death Mask",
+   "card_text": "Unique, Irreplaceable, Accessory\nIf you have no affinities, gain +4 luck and suffer -4 to all severe injury rolls.",
+   "keywords": "item, mask, bone, other",
+   "special_rules": "Unique, Irreplaceable, Accessory",
+   "craft_blurb": "The Death Mask may be crafted once the Mask Maker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Accessory"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    },
+    {
+     "name": "-1 Population"
+    },
+    {
+     "name": "6x Bone"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Masks"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Accessories"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Mask Maker Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "God Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/God_Mask",
+   "card_name": "God Mask",
+   "card_text": "Unique, Irreplaceable, Accessory\nAffinity Bonus: At the start of your act, if insane, gain +1 survival.",
+   "keywords": "item, mask, bone, other",
+   "special_rules": "Unique, Irreplaceable, Accessory, Affinity Bonus",
+   "craft_blurb": "The God Mask may be crafted once the Mask Maker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Accessory"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    },
+    {
+     "name": "1x Founding Stone"
+    },
+    {
+     "name": "6x Bone"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Masks"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Accessories"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Uses for Founding Stone"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Mask Maker Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Strange Caravan"
+    },
+    {
+     "name": "Mask Salesman"
+    }
+   ]
+  },
+  {
+   "name": "Man Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/Man_Mask",
+   "card_name": "Man Mask",
+   "card_text": "Unique, Irreplaceable, Accessory\nAffinity Bonus: If insane, you may spend negative attribute tokens in place of survival.",
+   "keywords": "item, mask, bone, other",
+   "special_rules": "Unique, Irreplaceable, Accessory, Affinity Bonus",
+   "craft_blurb": "The Man Mask may be crafted once the Mask Maker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Accessory"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    },
+    {
+     "name": "1x Skull"
+    },
+    {
+     "name": "6x Bone"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Masks"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Accessories"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Mask Maker Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Strange Caravan"
+    },
+    {
+     "name": "Mask Salesman"
+    }
+   ]
+  },
+  {
+   "name": "Phoenix Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/Phoenix_Mask",
+   "card_name": "Phoenix Mask",
+   "card_text": "Unique, Irreplaceable, Accessory\nAffinity Bonus: If insane, you may dodge 1 additional time per round.",
+   "keywords": "item, mask, bone, other",
+   "special_rules": "Unique, Irreplaceable, Accessory, Affinity Bonus",
+   "craft_blurb": "The Phoenix Mask may be crafted once the Mask Maker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Accessory"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    },
+    {
+     "name": "1x Small Feathers"
+    },
+    {
+     "name": "6x Bone"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Masks"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Accessories"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Uses for Small Feathers"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Mask Maker Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "White Lion Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/White_Lion_Mask",
+   "card_name": "White Lion Mask",
+   "card_text": "Unique, Irreplaceable, Accessory\nAffinity Bonus: If insane, spend to lose all your survival and gain that may +1 strength tokens.",
+   "keywords": "item, mask, bone, other",
+   "special_rules": "Unique, Irreplaceable, Accessory, Affinity Bonus",
+   "craft_blurb": "The White Lion Mask may be crafted once the Mask Maker settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Accessory"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    },
+    {
+     "name": "1x Shimmering Mane"
+    },
+    {
+     "name": "6x Bone"
+    },
+    {
+     "name": "4x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Masks"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Accessories"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Uses for Shimmering Mane"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Mask Maker Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Dried Acanthus",
+   "url": "https://kingdomdeath.fandom.com/wiki/Dried_Acanthus",
+   "card_name": "Dried Acanthus",
+   "card_text": "Dried Acanthus is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, herb, consumable",
+   "craft_blurb": "When you depart, gain +2 survival. When you suffer a severe injury, ignore it and archive this card instead.",
+   "crafting_reqs": [
+    {
+     "name": "1x Fresh Acanthus"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Herbs"
+    },
+    {
+     "name": "Consumables"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "When you suffer a severe injury"
+    },
+    {
+     "name": "Uses for Fresh Acanthus"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Organ Grinder Gear"
+    },
+    {
+     "name": "Core Game Consumables"
+    },
+    {
+     "name": "Consumable Gear"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Fecal Salve",
+   "url": "https://kingdomdeath.fandom.com/wiki/Fecal_Salve",
+   "card_name": "Fecal Salve",
+   "card_text": "Fecal Salve is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, balm, stinky",
+   "craft_blurb": "When you depart, gain +1 survival.",
+   "crafting_reqs": [
+    {
+     "name": "1x organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Balms"
+    },
+    {
+     "name": "Stinky Gear"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Organ Grinder Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lucky Charm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lucky_Charm",
+   "card_name": "Lucky Charm",
+   "card_text": "Affinity Bonus: +1 luck",
+   "keywords": "item, jewelry",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Lucky Charm may be crafted once the Organ Grinder settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Gear with Right Blue Affinities"
+    },
+    {
+     "name": "Gear with Luck Bonus"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Organ Grinder Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Monster Grease",
+   "url": "https://kingdomdeath.fandom.com/wiki/Monster_Grease",
+   "card_name": "Monster Grease",
+   "card_text": "Gain +1 evasion.\nAffinity Bonus: +1 evasion",
+   "keywords": "item, consumable, soluble, stinky",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Monster Grease may be crafted once the Organ Grinder settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Consumables"
+    },
+    {
+     "name": "Soluble Gear"
+    },
+    {
+     "name": "Stinky Gear"
+    },
+    {
+     "name": "Gear with Evasion Bonus"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Organ Grinder Gear"
+    },
+    {
+     "name": "Core Game Consumables"
+    },
+    {
+     "name": "Consumable Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Monster Tooth Necklace",
+   "url": "https://kingdomdeath.fandom.com/wiki/Monster_Tooth_Necklace",
+   "card_name": "Monster Tooth Necklace",
+   "card_text": "Gain +1 strength.\nAffinity Bonus: +1 strength",
+   "keywords": "item, jewelry, bone",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Monster Tooth Necklace may be crafted once the Organ Grinder settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Scrap"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Gear with Strength Bonus"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Organ Grinder Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Stone Noses",
+   "url": "https://kingdomdeath.fandom.com/wiki/Stone_Noses",
+   "card_name": "Stone Noses",
+   "card_text": "Stone Noses is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, jewelry",
+   "craft_blurb": "On Arrival, gain +1 survival, +1 insanity.",
+   "crafting_reqs": [
+    {
+     "name": "1x"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Organ Grinder Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Arc Bow",
+   "url": "https://kingdomdeath.fandom.com/wiki/Arc_Bow",
+   "card_name": "Arc Bow",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "9",
+   "card_text": "Slow, Range 6\nCumbersome: Spend as an additional cost of activating this weapon.\nAffinity Bonus: Range +2",
+   "keywords": "weapon, ranged, bow, two-handed",
+   "special_rules": "Slow, Range 6, Cumbersome, Affinity Bonus",
+   "craft_blurb": "The Arc Bow may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Range 6"
+    },
+    {
+     "name": "Cumbersome"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Phoenix Whisker"
+    },
+    {
+     "name": "1x Wishbone"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Ranged Weapons"
+    },
+    {
+     "name": "Bows"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Cumbersome Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Uses for Wishbone"
+    },
+    {
+     "name": "Uses for Phoenix Whisker"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bird Bread",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bird_Bread",
+   "card_name": "Bird Bread",
+   "card_text": "Consume: Once per showdown, add 1 to all hit locations. Gain priority target token. Roll 1d10. On a 1, reduce your survival to 0.",
+   "keywords": "item, consumable, soluble",
+   "craft_blurb": "Bird Bread may be crafted once the Plumery settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "1x Pustules"
+    },
+    {
+     "name": "3x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Consumables"
+    },
+    {
+     "name": "Soluble Gear"
+    },
+    {
+     "name": "Uses for Pustules"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Core Game Consumables"
+    },
+    {
+     "name": "Consumable Gear"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bloom Sphere",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bloom_Sphere",
+   "card_name": "Bloom Sphere",
+   "card_text": "Affinity Bonus: When you are picked as a target, roll 1d10. On a 6+, the monster must pick a new target if possible1.",
+   "keywords": "item, stinky, other",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Bloom Sphere may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Small Hand Parasites"
+    },
+    {
+     "name": "3x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Stinky Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Right Blue Affinities"
+    },
+    {
+     "name": "Uses for Small Hand Parasites"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "1"
+    },
+    {
+     "name": "monster controller"
+    },
+    {
+     "name": "Pick Target"
+    },
+    {
+     "name": "AI card"
+    },
+    {
+     "name": "showdown board"
+    },
+    {
+     "name": "instinct"
+    }
+   ]
+  },
+  {
+   "name": "Crest Crown",
+   "url": "https://kingdomdeath.fandom.com/wiki/Crest_Crown",
+   "card_name": "Crest Crown",
+   "card_text": ": If insane, reshuffle the hit location deck.\nAffinity Bonus: When you depart, gain +1 insanity and +1 survival for every you have.",
+   "keywords": "item, other",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Crest Crown may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Phoenix Crest"
+    },
+    {
+     "name": "6x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Uses for Phoenix Crest"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Feather Mantle",
+   "url": "https://kingdomdeath.fandom.com/wiki/Feather_Mantle",
+   "card_name": "Feather Mantle",
+   "card_text": "When you suffer knockback, you may ignore collision with other survivors and reduce the movement by up to 3 spaces.",
+   "keywords": "item, flammable",
+   "craft_blurb": "The Feather Mantle may be crafted once the Plumery settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "2x Tail Feathers"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "When you suffer knockback"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Down Red Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Uses for Tail Feathers"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Feather Shield",
+   "url": "https://kingdomdeath.fandom.com/wiki/Feather_Shield",
+   "card_name": "Feather Shield",
+   "speed": "3",
+   "accuracy": "7+",
+   "strength": "0",
+   "card_text": "Block 1\nAffinity Bonus: Reduce any suffered brain damage by 1 to a minimum of 1.",
+   "keywords": "weapon, melee, shield, flammable",
+   "special_rules": "Block 1, Affinity Bonus",
+   "craft_blurb": "The Feather Shield may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Block 1"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Small Feathers"
+    },
+    {
+     "name": "1x Muculent Droppings"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Shields"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "Gear with Block"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Uses for Small Feathers"
+    },
+    {
+     "name": "Uses for Muculent Droppings"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Hollow Sword",
+   "url": "https://kingdomdeath.fandom.com/wiki/Hollow_Sword",
+   "card_name": "Hollow Sword",
+   "speed": "3",
+   "accuracy": "5+",
+   "strength": "3",
+   "card_text": "Hollow Sword is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, sword, bone",
+   "special_rules": "Frail, Paired",
+   "craft_blurb": "Frail, Paired\nOn a Perfect hit, make 1 additional attack roll.",
+   "armor_points": [
+    {
+     "name": "Frail"
+    },
+    {
+     "name": "Paired"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hollow Wing Bone"
+    },
+    {
+     "name": "2x Bone"
+    },
+    {
+     "name": "2x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Paired Weapons"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Uses for Hollow Wing Bones"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Hollowpoint Arrow",
+   "url": "https://kingdomdeath.fandom.com/wiki/Hollowpoint_Arrow",
+   "card_name": "Hollowpoint Arrow",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "11",
+   "card_text": "Hollowpoint Arrow is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, ammunition, arrow",
+   "special_rules": "Slow, Ammo - Bow",
+   "craft_blurb": "Slow, Ammo - Bow\nOn a hit, monster gains -1 movement token. Use once per showdown.",
+   "armor_points": [
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Ammo - Bow"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hollow Wing Bones"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Ammunition"
+    },
+    {
+     "name": "Arrows"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Uses for Hollow Wing Bones"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Hours Ring",
+   "url": "https://kingdomdeath.fandom.com/wiki/Hours_Ring",
+   "card_name": "Hours Ring",
+   "card_text": "Hours Ring is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, other",
+   "special_rules": "Unique",
+   "craft_blurb": "Unique\nDuring the aftermath, if you died or ceased to exist, you may archive the Hours Ring and reset the campaign to the previous Settlement Phase's development step before you departed. Limit, once per campaign1.",
+   "armor_points": [
+    {
+     "name": "Unique"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Shimmering Halo"
+    },
+    {
+     "name": "5x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Core Game Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "1"
+    }
+   ]
+  },
+  {
+   "name": "Phoenix Faulds",
+   "url": "https://kingdomdeath.fandom.com/wiki/Phoenix_Faulds",
+   "card_name": "Phoenix Faulds",
+   "card_text": "When you depart, gain +1 insanity.",
+   "keywords": "armor, set, feather, metal, flammable",
+   "special_rules": "4",
+   "craft_blurb": "The Phoenix Faulds may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Tail Feathers"
+    },
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Waist Armor"
+    },
+    {
+     "name": "Feather Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Tail Feathers"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Brawler Armor"
+    },
+    {
+     "name": "Phoenix Armor"
+    }
+   ]
+  },
+  {
+   "name": "Phoenix Gauntlet",
+   "url": "https://kingdomdeath.fandom.com/wiki/Phoenix_Gauntlet",
+   "card_name": "Phoenix Gauntlet",
+   "card_text": "When you depart, gain +1 insanity.",
+   "keywords": "armor, set, feather, metal, flammable",
+   "special_rules": "4",
+   "craft_blurb": "The Phoenix Gauntlet may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Small Feathers"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Arm Armor"
+    },
+    {
+     "name": "Feather Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Small Feathers"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Phoenix Armor"
+    }
+   ]
+  },
+  {
+   "name": "Phoenix Greaves",
+   "url": "https://kingdomdeath.fandom.com/wiki/Phoenix_Greaves",
+   "card_name": "Phoenix Greaves",
+   "card_text": "If insane, gain +2 movement.",
+   "keywords": "armor, set, feather, metal, flammable",
+   "special_rules": "4",
+   "craft_blurb": "The Phoenix Greaves may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Small Feathers"
+    },
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Leg Armor"
+    },
+    {
+     "name": "Feather Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Small Feathers"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Brawler Armor"
+    },
+    {
+     "name": "Phoenix Armor"
+    }
+   ]
+  },
+  {
+   "name": "Phoenix Helm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Phoenix_Helm",
+   "card_name": "Phoenix Helm",
+   "card_text": "Affinity Bonus: If insane at the start of the showdown, gain +1 evasion token.",
+   "keywords": "armor, set, feather, metal, flammable",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Phoenix Helm may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hollow Wing Bones"
+    },
+    {
+     "name": "1x Small Feathers"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Feather Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Uses for Hollow Wing Bones"
+    },
+    {
+     "name": "Uses for Small Feathers"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Phoenix Armor"
+    },
+    {
+     "name": "Dancer Armor"
+    }
+   ]
+  },
+  {
+   "name": "Phoenix Plackart",
+   "url": "https://kingdomdeath.fandom.com/wiki/Phoenix_Plackart",
+   "card_name": "Phoenix Plackart",
+   "card_text": "Affinity Bonus: If insane, ignore the first hit each round and suffer 1 brain damage instead.",
+   "keywords": "armor, set, feather, metal, flammable",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Phoenix Plackart may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "1x Leather"
+    },
+    {
+     "name": "1x Tail Feathers"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Body Armor"
+    },
+    {
+     "name": "Feather Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Flammable Gear"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Uses for Leather"
+    },
+    {
+     "name": "Uses for Tail Feathers"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Phoenix Armor"
+    },
+    {
+     "name": "Warlord Armor"
+    }
+   ]
+  },
+  {
+   "name": "Sonic Tomahawk",
+   "url": "https://kingdomdeath.fandom.com/wiki/Sonic_Tomahawk",
+   "card_name": "Sonic Tomahawk",
+   "speed": "3",
+   "accuracy": "5+",
+   "strength": "2",
+   "card_text": "On a Perfect hit, make 1 additional attack roll.\nAffinity Bonus: Gain Savage and Paired",
+   "keywords": "weapon, melee, axe, metal",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Sonic Tomahawk may be crafted once the Plumery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Small Feathers"
+    },
+    {
+     "name": "1x Scrap"
+    },
+    {
+     "name": "1x Hollow Wing Bones"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Axes"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Savage"
+    },
+    {
+     "name": "Paired Weapons"
+    },
+    {
+     "name": "Uses for Small Feathers"
+    },
+    {
+     "name": "Uses for Hollow Wing Bones"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Plumery Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Adventure Sword",
+   "url": "https://kingdomdeath.fandom.com/wiki/Adventure_Sword",
+   "card_name": "Adventure Sword",
+   "speed": "3",
+   "accuracy": "6+",
+   "strength": "0",
+   "card_text": "Adventure Sword is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, finesse, sword, other",
+   "special_rules": "Unique, Irreplaceable",
+   "craft_blurb": "Unique, Irreplaceable\nYour courage is added to this weapon's strength.",
+   "armor_points": [
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Hunt event 85: Test of Courage"
+    },
+    {
+     "name": "Defeat the Mad Steed"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    }
+   ]
+  },
+  {
+   "name": "Butcher Cleaver",
+   "url": "https://kingdomdeath.fandom.com/wiki/Butcher_Cleaver",
+   "card_name": "Butcher Cleaver",
+   "speed": "2",
+   "accuracy": "5+",
+   "strength": "5",
+   "card_text": "Paired\nSentient: Must be insane to activate.\nIrreplaceable: When you die, archive this card.",
+   "keywords": "weapon, melee, axe, other",
+   "special_rules": "Paired, Sentient, Irreplaceable",
+   "armor_points": [
+    {
+     "name": "Paired"
+    },
+    {
+     "name": "Sentient"
+    },
+    {
+     "name": "Irreplaceable"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Axes"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Paired Weapons"
+    },
+    {
+     "name": "Sentient Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    }
+   ]
+  },
+  {
+   "name": "Forsaker Mask",
+   "url": "https://kingdomdeath.fandom.com/wiki/Forsaker_Mask",
+   "card_name": "Forsaker Mask",
+   "card_text": "Forsaker Mask is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, mask, metal, other",
+   "special_rules": "Unique, Irreplaceable, Accessory",
+   "craft_blurb": "Unique, Irreplaceable, Accessory\nDuring the Aftermath, you run off into the darkness never to be seen again.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Accessory"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Masks"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Unique Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Accessories"
+    }
+   ]
+  },
+  {
+   "name": "Lantern Halberd",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lantern_Halberd",
+   "card_name": "Lantern Halberd",
+   "speed": "2",
+   "accuracy": "4+",
+   "strength": "7",
+   "card_text": "Lantern Halberd is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, two-handed, spear, other, lantern1",
+   "special_rules": "Reach 2, Irreplaceable, Unique",
+   "craft_blurb": "Reach 2, Irreplaceable, Unique\nAfter attacking, if standing, you may move up to 2 spaces directly away from the monster.",
+   "armor_points": [
+    {
+     "name": "Reach 2"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Unique"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Guidepost"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Spears"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Unique Gear"
+    }
+   ]
+  },
+  {
+   "name": "Muramasa",
+   "url": "https://kingdomdeath.fandom.com/wiki/Muramasa",
+   "card_name": "Muramasa",
+   "speed": "6",
+   "accuracy": "6+",
+   "strength": "6",
+   "card_text": "Muramasa is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, katana, two-handed, finesse, other",
+   "special_rules": "Frail, Sharp, Sentient,\nDeadly 2, Unique",
+   "craft_blurb": "Frail, Sharp, Sentient, Deadly 2, Unique\nWhen you critically wound with this weapon, gain 2 bleeding tokens.",
+   "armor_points": [
+    {
+     "name": "Frail"
+    },
+    {
+     "name": "Sharp"
+    },
+    {
+     "name": "Sentient"
+    },
+    {
+     "name": "Deadly 2"
+    },
+    {
+     "name": "Unique"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Hunt event 88: The Sword and the Statue"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Katanas"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "Sentient Gear"
+    },
+    {
+     "name": "Deadly Gear"
+    },
+    {
+     "name": "Unique Gear"
+    }
+   ]
+  },
+  {
+   "name": "Regal Faulds",
+   "url": "https://kingdomdeath.fandom.com/wiki/Regal_Faulds",
+   "card_name": "Regal Faulds",
+   "card_text": "Regal Faulds is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "armor, bone, metal",
+   "special_rules": "Cursed",
+   "craft_blurb": "Cursed\nAt the Aftermath, King's Curse.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    },
+    {
+     "name": "Cursed"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "King's Curse"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Cursed Gear"
+    },
+    {
+     "name": "Waist Armor"
+    }
+   ]
+  },
+  {
+   "name": "Regal Gauntlet",
+   "url": "https://kingdomdeath.fandom.com/wiki/Regal_Gauntlet",
+   "card_name": "Regal Gauntlet",
+   "card_text": "Regal Gauntlet is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "armor, bone, metal",
+   "special_rules": "Cursed",
+   "craft_blurb": "Cursed\nAt the Aftermath, King's Curse.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    },
+    {
+     "name": "Cursed"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "King's Curse"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Cursed Gear"
+    },
+    {
+     "name": "Arm Armor"
+    }
+   ]
+  },
+  {
+   "name": "Regal Greaves",
+   "url": "https://kingdomdeath.fandom.com/wiki/Regal_Greaves",
+   "card_name": "Regal Greaves",
+   "card_text": "Regal Greaves is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "armor, bone, metal",
+   "special_rules": "Cursed",
+   "craft_blurb": "Cursed\nAt the Aftermath, King's Curse.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    },
+    {
+     "name": "Cursed"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "King's Curse"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Cursed Gear"
+    },
+    {
+     "name": "Leg Armor"
+    }
+   ]
+  },
+  {
+   "name": "Regal Helm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Regal_Helm",
+   "card_name": "Regal Helm",
+   "card_text": "Regal Helm is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "armor, bone, metal",
+   "special_rules": "Cursed",
+   "craft_blurb": "Cursed\nAt the Aftermath, King's Curse.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    },
+    {
+     "name": "Cursed"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "King's Curse"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Cursed Gear"
+    },
+    {
+     "name": "Head Armor"
+    }
+   ]
+  },
+  {
+   "name": "Regal Plackart",
+   "url": "https://kingdomdeath.fandom.com/wiki/Regal_Plackart",
+   "card_name": "Regal Plackart",
+   "card_text": "Regal Plackart is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "armor, bone, metal",
+   "special_rules": "Cursed",
+   "craft_blurb": "Cursed\nAt the Aftermath, King's Curse.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "4"
+    },
+    {
+     "name": "Cursed"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "King's Curse"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Cursed Gear"
+    },
+    {
+     "name": "Body Armor"
+    }
+   ]
+  },
+  {
+   "name": "Steel Shield",
+   "url": "https://kingdomdeath.fandom.com/wiki/Steel_Shield",
+   "card_name": "Steel Shield",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "6",
+   "card_text": "Steel Shield is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, shield, metal, heavy",
+   "special_rules": "Irreplaceable",
+   "craft_blurb": "Irreplaceable\n-3 movement. Spend or 1 survival to ignore a hit.",
+   "armor_points": [
+    {
+     "name": "Irreplaceable"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Hunt event 29: Dark Blacksmith"
+    },
+    {
+     "name": "Hunt event 100: The Finale"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Shields"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Heavy Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    }
+   ]
+  },
+  {
+   "name": "Steel Sword",
+   "url": "https://kingdomdeath.fandom.com/wiki/Steel_Sword",
+   "card_name": "Steel Sword",
+   "speed": "1",
+   "accuracy": "4+",
+   "strength": "5",
+   "card_text": "Steel Sword is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, sword, finesse, metal",
+   "special_rules": "Irreplaceable, Slow, Sharp",
+   "craft_blurb": "Irreplaceable, Slow, Sharp\nOn a Perfect hit, the edge sharpens. Gain +1d10 strength for the rest of the attack.",
+   "armor_points": [
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Sharp"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Hunt event 29: Dark Blacksmith"
+    },
+    {
+     "name": "Hunt event 100: The Finale"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Weapons with Sharp"
+    },
+    {
+     "name": "On a Perfect Hit"
+    }
+   ]
+  },
+  {
+   "name": "Thunder Maul",
+   "url": "https://kingdomdeath.fandom.com/wiki/Thunder_Maul",
+   "card_name": "Thunder Maul",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "10",
+   "card_text": "Thunder Maul is a rare gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, club, two-handed, other",
+   "special_rules": "Irreplaceable, Unique, Cursed",
+   "craft_blurb": "Irreplaceable, Unique, Cursed\nOn a Perfect hit, the monster is knocked down. Suffer a severe arm injury. All non-deaf survivors suffer 1 brain damage.",
+   "armor_points": [
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Unique"
+    },
+    {
+     "name": "Cursed"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Hunt event 100: The Finale"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    }
+   ]
+  },
+  {
+   "name": "Twilight Sword",
+   "url": "https://kingdomdeath.fandom.com/wiki/Twilight_Sword",
+   "card_name": "Twilight Sword",
+   "speed": "1",
+   "accuracy": "-",
+   "strength": "9",
+   "card_text": "Slow, Cursed, Cumbersome, Sentient, Irreplaceable\nGains Devastating 2 when fighting the Watcher.",
+   "keywords": "weapon, melee, two-handed, finesse, other",
+   "special_rules": "Slow, Cursed, Cumbersome,\nSentient, Irreplaceable, Devastating vs Watcher",
+   "armor_points": [
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Cursed"
+    },
+    {
+     "name": "Cumbersome"
+    },
+    {
+     "name": "Sentient"
+    },
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Devastating vs Watcher"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "Accuracy = 9 - Twilight Sword Proficiency level."
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Rare Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Cursed Gear"
+    },
+    {
+     "name": "Cumbersome Gear"
+    },
+    {
+     "name": "Sentient Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Devastating Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Hooded Knight"
+    },
+    {
+     "name": "Hunt event"
+    },
+    {
+     "name": "Dream"
+    },
+    {
+     "name": "Nightmare"
+    },
+    {
+     "name": "Golden Ember"
+    },
+    {
+     "name": "Twilight Sword Mastery"
+    }
+   ]
+  },
+  {
+   "name": "Bandages",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bandages",
+   "card_name": "Bandages",
+   "card_text": "Bandages is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item",
+   "craft_blurb": ": Remove up to 2 bleeding tokens from yourself or an adjacent survivor.",
+   "crafting_reqs": [
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Left Blue Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Rawhide Boots",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rawhide_Boots",
+   "card_name": "Rawhide Boots",
+   "card_text": "When you depart, gain +1 survival.",
+   "keywords": "armor, set, rawhide",
+   "special_rules": "1",
+   "craft_blurb": "The Rawhide Boots may be crafted once the Skinnery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "1"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Leg Armor"
+    },
+    {
+     "name": "Rawhide Gear"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Rawhide Armor"
+    }
+   ]
+  },
+  {
+   "name": "Rawhide Drum",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rawhide_Drum",
+   "card_name": "Rawhide Drum",
+   "card_text": "On Arrival, all survivors gain +1 insanity.",
+   "keywords": "item, rawhide, instrument, noisy",
+   "craft_blurb": "Inspirational Drumming! When you perform encourage, all non-deaf survivors are affected.",
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Instruments"
+    },
+    {
+     "name": "Noisy Gear"
+    },
+    {
+     "name": "Rawhide Gear"
+    },
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "When you encourage"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Rawhide Gloves",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rawhide_Gloves",
+   "card_name": "Rawhide Gloves",
+   "card_text": "When you depart, gain +1 survival.",
+   "keywords": "armor, set, rawhide",
+   "special_rules": "1",
+   "craft_blurb": "The Rawhide Gloves may be crafted once the Skinnery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "1"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Rawhide Gear"
+    },
+    {
+     "name": "Arm Armor"
+    },
+    {
+     "name": "When you depart"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Rawhide Armor"
+    }
+   ]
+  },
+  {
+   "name": "Rawhide Headband",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rawhide_Headband",
+   "card_name": "Rawhide Headband",
+   "card_text": "Affinity Bonus: : Reveal the top 2 . Place them back on top of the deck in any order.",
+   "keywords": "armor, set, rawhide",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Rawhide Headband may be crafted once the Skinnery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "1"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Rawhide Gear"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Rawhide Armor"
+    }
+   ]
+  },
+  {
+   "name": "Rawhide Pants",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rawhide_Pants",
+   "card_name": "Rawhide Pants",
+   "card_text": "The Rawhide Pants may be crafted once the Skinnery settlement location has been built.",
+   "keywords": "armor, set, rawhide",
+   "special_rules": "1",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "1"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Waist Armor"
+    },
+    {
+     "name": "Rawhide Gear"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Rawhide Armor"
+    }
+   ]
+  },
+  {
+   "name": "Rawhide Vest",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rawhide_Vest",
+   "card_name": "Rawhide Vest",
+   "card_text": "Affinity Bonus: +1 evasion",
+   "keywords": "armor, rawhide, set",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Rawhide Vest may be crafted once the Skinnery settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "1"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Body Armor"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Rawhide Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Gear with Evasion Bonus"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Rawhide Armor"
+    },
+    {
+     "name": "Dancer Armor"
+    }
+   ]
+  },
+  {
+   "name": "Rawhide Whip",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rawhide_Whip",
+   "card_name": "Rawhide Whip",
+   "speed": "3",
+   "accuracy": "7+",
+   "strength": "1",
+   "card_text": "Rawhide Whip is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, whip, rawhide",
+   "special_rules": "Provoke",
+   "craft_blurb": "Provoke: When you wound with this weapon, gain the priority target token.",
+   "armor_points": [
+    {
+     "name": "Provoke"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Whips"
+    },
+    {
+     "name": "Weapons with Provoke"
+    },
+    {
+     "name": "Rawhide Gear"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Skinnery Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Cloth",
+   "url": "https://kingdomdeath.fandom.com/wiki/Cloth",
+   "card_name": "Cloth",
+   "speed": "B",
+   "accuracy": "Disambiguation page for Cloth\nThe following is a list of links to pages that might share the same title.\nPlease follow one of the disambiguation links below or search to find the page you were looking for if it is not listed. If an internal link led you here, you may wish to change the link to point directly to the intended article.",
+   "crafting_reqs": [
+    {
+     "name": "Cloth (Gear)"
+    },
+    {
+     "name": "Cloth (Gear Keyword)"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Disambiguations"
+    }
+   ]
+  },
+  {
+   "name": "Founding Stone",
+   "url": "https://kingdomdeath.fandom.com/wiki/Founding_Stone",
+   "card_name": "Founding Stone",
+   "speed": "2",
+   "accuracy": "7+",
+   "strength": "1",
+   "card_text": "Founding Stone is a starting gear card found in the Kingdom Death: Monster Core Game. Starting Survivors begin the game with this gear in their gear grid.",
+   "keywords": "weapon, melee, stone",
+   "craft_blurb": "Spend to sling the stone from anywhere on the board! Archive this card for 1 automatic hit that inflicts a critical wound.",
+   "crafting_reqs": [
+    {
+     "name": "First Story"
+    },
+    {
+     "name": "Acid Storm"
+    },
+    {
+     "name": "Cracks in the Ground"
+    },
+    {
+     "name": "Dark Trader"
+    },
+    {
+     "name": "Stranger in the Dark"
+    },
+    {
+     "name": "Principle: Death"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Stone Gear"
+    },
+    {
+     "name": "Starting Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Beast Knuckle",
+   "url": "https://kingdomdeath.fandom.com/wiki/Beast_Knuckle",
+   "card_name": "Beast Knuckle",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "4",
+   "card_text": "Paired\nWhen you wound with this weapon, monster gains -1 toughness until the end of the attack1.",
+   "keywords": "weapon, melee, katar, bone",
+   "special_rules": "Paired",
+   "craft_blurb": "The Beast Knuckle may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Paired"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Large Flat Tooth"
+    },
+    {
+     "name": "1x Pelt"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Katars"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Paired Weapons"
+    },
+    {
+     "name": "Uses for Large Flat Tooth"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "1"
+    }
+   ]
+  },
+  {
+   "name": "Blood Paint",
+   "url": "https://kingdomdeath.fandom.com/wiki/Blood_Paint",
+   "card_name": "Blood Paint",
+   "card_text": "Blood Paint is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, soluble",
+   "craft_blurb": ": Activate weapon gear to the left and right of this card. There are two separate attacks. Cannot be used with two-handed weapons1,2.",
+   "crafting_reqs": [
+    {
+     "name": "1x Bladder"
+    },
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Soluble Gear"
+    },
+    {
+     "name": "Uses for Bladder"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Blue Charm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Blue_Charm",
+   "card_name": "Blue Charm",
+   "card_text": "+1\nAffinity Bonus: Unshakeable: When you draw a Trap, roll 1d10. On a 6+, discard the Trap and reshuffle the deck.",
+   "keywords": "item, jewelry, fragile",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Blue Charm may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "3x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "Fragile Gear"
+    },
+    {
+     "name": "Gear with Permanent Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Bone Earrings",
+   "url": "https://kingdomdeath.fandom.com/wiki/Bone_Earrings",
+   "card_name": "Bone Earrings",
+   "card_text": "At the start of the showdown, gain +2 speed and +2 strength tokens if insane and all gear in your gear grid has the bone keyword.",
+   "keywords": "item, jewelry, bone",
+   "craft_blurb": "The Bone Earrings may be crafted once the Stone Circle settlement location has been built.",
+   "crafting_reqs": [
+    {
+     "name": "1x Shank Bone"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Uses for Shank Bone"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Boss Mehndi",
+   "url": "https://kingdomdeath.fandom.com/wiki/Boss_Mehndi",
+   "card_name": "Boss Mehndi",
+   "card_text": "Boss Mehndi is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, soluble",
+   "craft_blurb": "Boss is brave. While adjacent to you, insane survivors gain +1 speed.",
+   "crafting_reqs": [
+    {
+     "name": "1x Golden Whiskers"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Soluble Gear"
+    },
+    {
+     "name": "Uses for Golden Whiskers"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "symbol"
+    },
+    {
+     "name": "keyword"
+    }
+   ]
+  },
+  {
+   "name": "Green Charm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Green_Charm",
+   "card_name": "Green Charm",
+   "card_text": "+1\nAffinity Bonus: Undeathable: If you would die, roll 1d10. On a 6+, you inexplicably survive.",
+   "keywords": "item, jewelry, fragile",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Green Charm may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "3x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "Fragile Gear"
+    },
+    {
+     "name": "Gear with Permanent Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Lance of Longinus",
+   "url": "https://kingdomdeath.fandom.com/wiki/Lance_of_Longinus",
+   "card_name": "Lance of Longinus",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "9",
+   "card_text": "Lance of Longinus is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, spear, two-handed, bone",
+   "special_rules": "Irreplaceable, Reach 2",
+   "craft_blurb": "Irreplaceable, Reach 2\nEach showdown, the first time you wound the monster gains a -1 toughness token.",
+   "armor_points": [
+    {
+     "name": "Irreplaceable"
+    },
+    {
+     "name": "Reach 2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Legendary Horns"
+    },
+    {
+     "name": "6x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Spears"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Irreplaceable Gear"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Uses for Legendary Horns"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Red Charm",
+   "url": "https://kingdomdeath.fandom.com/wiki/Red_Charm",
+   "card_name": "Red Charm",
+   "card_text": "+1\nAffinity Bonus: Unstoppable: When you attempt to wound, instead roll 1d10. On 1-5, fail. On 6-10, wound.",
+   "keywords": "item, jewelry, fragile",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Red Charm may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "3x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Jewelry"
+    },
+    {
+     "name": "Fragile Gear"
+    },
+    {
+     "name": "Gear with Permanent Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Screaming Bracers",
+   "url": "https://kingdomdeath.fandom.com/wiki/Screaming_Bracers",
+   "card_name": "Screaming Bracers",
+   "card_text": "On Arrival, if possible, add an Acanthus Plant terrain card to the showdown. When you activate terrain, you may add +2 to your roll result.",
+   "keywords": "armor, set, fur",
+   "special_rules": "2",
+   "craft_blurb": "The Screaming Bracers may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Pelt"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Arm Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Up Green Affinities"
+    },
+    {
+     "name": "Uses for Pelt"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Screaming Armor"
+    },
+    {
+     "name": "Dancer Armor"
+    }
+   ]
+  },
+  {
+   "name": "Screaming Coat",
+   "url": "https://kingdomdeath.fandom.com/wiki/Screaming_Coat",
+   "card_name": "Screaming Coat",
+   "card_text": "Slam: Spend to full move forward in a straight line. If you move 4+ spaces and stop adjacent to a monster, it suffers knockback 1 and -1 toughness until the end of the round.",
+   "keywords": "armor, set, fur",
+   "special_rules": "Slam",
+   "craft_blurb": "The Screaming Coat may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    },
+    {
+     "name": "Slam"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Pelt"
+    },
+    {
+     "name": "1x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Body Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Left Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Gear with Right Blue Affinities"
+    },
+    {
+     "name": "Uses for Pelt"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Armor"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Screaming Horns",
+   "url": "https://kingdomdeath.fandom.com/wiki/Screaming_Horns",
+   "card_name": "Screaming Horns",
+   "card_text": ": Scream. Non-deaf, insane survivors gain +1 movement until the end of the round. Other non-deaf survivors gain +1 insanity.",
+   "keywords": "armor, set, bone",
+   "special_rules": "Scream",
+   "craft_blurb": "The Screaming Horns may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    },
+    {
+     "name": "Scream"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Spiral Horn"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Head Armor"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Uses for Spiral Horn"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Screaming Armor"
+    },
+    {
+     "name": "Warlord Armor"
+    }
+   ]
+  },
+  {
+   "name": "Screaming Leg Warmers",
+   "url": "https://kingdomdeath.fandom.com/wiki/Screaming_Leg_Warmers",
+   "card_name": "Screaming Leg Warmers",
+   "card_text": "On Arrival, your feet hurt. Gain +3 insanity.",
+   "keywords": "armor, set, fur",
+   "special_rules": "2",
+   "craft_blurb": "The Screaming Leg Warmers may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "2"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Pelt"
+    },
+    {
+     "name": "1x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Leg Armor"
+    },
+    {
+     "name": "Fur Gear"
+    },
+    {
+     "name": "On Arrival"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Uses for Pelt"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Stone Circle Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Screaming Armor"
+    }
+   ]
+  },
+  {
+   "name": "Screaming Skirt",
+   "url": "https://kingdomdeath.fandom.com/wiki/Screaming_Skirt",
+   "card_name": "Screaming Skirt",
+   "card_text": "This protective fur protects your parts. Add +1 to severe waist injury roll results.",
+   "keywords": "armor, set, fur",
+   "special_rules": "3",
+   "craft_blurb": "The Screaming Skirt may be crafted once the Stone Circle settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Armor Points"
+    },
+    {
+     "name": "3"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Pelt"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Waist Armor"
+    },
+    {
+     "name": "When you suffer a severe injury"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Down Blue Affinities"
+    },
+    {
+     "name": "Uses for Pelt"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Screaming Armor"
+    },
+    {
+     "name": "Dancer Armor"
+    }
+   ]
+  },
+  {
+   "name": "Blood Sheath",
+   "url": "https://kingdomdeath.fandom.com/wiki/Blood_Sheath",
+   "card_name": "Blood Sheath",
+   "card_text": "Blood Sheath is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "item, bone, other",
+   "special_rules": "Block 1",
+   "craft_blurb": "Block 1\nWhen Rainbow Katana is left of Blood Sheath, it loses Frail and gains Sharp {add 1d10 strength to each wound attempt).",
+   "armor_points": [
+    {
+     "name": "Block 1"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "5x Organ"
+    },
+    {
+     "name": "1x Hollow Wing Bone"
+    },
+    {
+     "name": "1x Muculent Droppings"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Items"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Other Gear"
+    },
+    {
+     "name": "Gear with Block"
+    },
+    {
+     "name": "Uses for Hollow Wing Bones"
+    },
+    {
+     "name": "Uses for Muculent Droppings"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Counterweighted Axe",
+   "url": "https://kingdomdeath.fandom.com/wiki/Counterweighted_Axe",
+   "card_name": "Counterweighted Axe",
+   "speed": "2",
+   "accuracy": "6+",
+   "strength": "4",
+   "card_text": "Reach 2\nAffinity Bonus: On a Perfect hit, do not draw a hit location. Monster suffers 1 wound.",
+   "keywords": "weapon, melee, axe, two-handed",
+   "special_rules": "Reach 2, Affinity Bonus",
+   "craft_blurb": "The Counterweighted Axe may be crafted once the Weapon Crafter settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Reach 2"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Bone"
+    },
+    {
+     "name": "1x Hide"
+    },
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Axes"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Up Red Affinities"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Finger of God",
+   "url": "https://kingdomdeath.fandom.com/wiki/Finger_of_God",
+   "card_name": "Finger of God",
+   "speed": "2",
+   "accuracy": "5+",
+   "strength": "5",
+   "card_text": "Reach 2\nAffinity Bonus: As long as you have 5+ survival, gain +1 accuracy and +1 strength.",
+   "keywords": "weapon, melee, spear, two-handed",
+   "special_rules": "Reach 2, Affinity Bonus",
+   "craft_blurb": "The Finger of God may be crafted once the Weapon Crafter settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Reach 2"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Phoenix Finger"
+    },
+    {
+     "name": "4x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Spears"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Gear with Reach"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Up Red Affinities"
+    },
+    {
+     "name": "Uses for Phoenix Finger"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Rainbow Katana",
+   "url": "https://kingdomdeath.fandom.com/wiki/Rainbow_Katana",
+   "card_name": "Rainbow Katana",
+   "speed": "4",
+   "accuracy": "4+",
+   "strength": "4",
+   "card_text": "Frail\nAffinity Bonus: Gains Deadly",
+   "keywords": "weapon, melee, katana, finesse, two-handed",
+   "special_rules": "Frail, Affinity Bonus",
+   "craft_blurb": "The Rainbow Katana may be crafted once the Weapon Crafter settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Frail"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Bird Beak"
+    },
+    {
+     "name": "1x Rainbow Droppings"
+    },
+    {
+     "name": "1x Iron"
+    },
+    {
+     "name": "6x Bone"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Katanas"
+    },
+    {
+     "name": "Gear with Finesse"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Deadly Gear"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Left Red Affinities"
+    },
+    {
+     "name": "Uses for Bird Beak"
+    },
+    {
+     "name": "Uses for Rainbow Droppings"
+    },
+    {
+     "name": "Uses for Iron"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "Gear with Any Affinities"
+    },
+    {
+     "name": "Gear with Up Any Affinities"
+    },
+    {
+     "name": "Gear with Left Any Affinities"
+    },
+    {
+     "name": "Gear with Down Any Affinities"
+    },
+    {
+     "name": "Gear with Right Any Affinities"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ],
+   "required_for": [
+    {
+     "name": "Blood Sheath"
+    }
+   ]
+  },
+  {
+   "name": "Scrap Dagger",
+   "url": "https://kingdomdeath.fandom.com/wiki/Scrap_Dagger",
+   "card_name": "Scrap Dagger",
+   "speed": "3",
+   "accuracy": "7+",
+   "strength": "2",
+   "card_text": "Scrap Dagger is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, dagger, metal",
+   "craft_blurb": "On a Perfect hit, the edge dsharpens. Gain +2 [[strength]] for the rest of the attack.",
+   "crafting_reqs": [
+    {
+     "name": "1x Bone"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Daggers"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Right Red Affinities"
+    },
+    {
+     "name": "Gear with Down Red Affinities"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Scrap Sword",
+   "url": "https://kingdomdeath.fandom.com/wiki/Scrap_Sword",
+   "card_name": "Scrap Sword",
+   "speed": "2",
+   "accuracy": "5+",
+   "strength": "3",
+   "card_text": "On a Perfect hit, the edge sharpens. Gain +4 strength for the rest of the attack.\nAffinity Bonus: Gains Deadly",
+   "keywords": "weapon, melee, sword, metal",
+   "special_rules": "Affinity Bonus",
+   "craft_blurb": "The Scrap Sword may be crafted once the Weapon Crafter settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Bone"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Swords"
+    },
+    {
+     "name": "Metal Gear"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Blue Affinities"
+    },
+    {
+     "name": "Gear with Up Blue Affinities"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Skullcap Hammer",
+   "url": "https://kingdomdeath.fandom.com/wiki/Skullcap_Hammer",
+   "card_name": "Skullcap Hammer",
+   "speed": "2",
+   "accuracy": "7+",
+   "strength": "3",
+   "card_text": "Skullcap Hammer is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, club, bone",
+   "craft_blurb": "On a Perfect hit, the monster is dazed, and gains -1 speed token until the end of its turn. A monster can be dazed once per round.",
+   "crafting_reqs": [
+    {
+     "name": "2x Bone"
+    },
+    {
+     "name": "1x Scrap"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Clubs"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "On a Perfect Hit"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Whistling Mace",
+   "url": "https://kingdomdeath.fandom.com/wiki/Whistling_Mace",
+   "card_name": "Whistling Mace",
+   "speed": "3",
+   "accuracy": "6+",
+   "strength": "3",
+   "card_text": "Whistling Mace is a gear card found in the Kingdom Death: Monster Core Game.",
+   "keywords": "weapon, melee, club, bone",
+   "special_rules": "Unwieldy",
+   "craft_blurb": "On a Perfect hit, reveal the next AI card. Place it on top or bottom of the AI deck.",
+   "armor_points": [
+    {
+     "name": "Unwieldy"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "2x Bone"
+    },
+    {
+     "name": "1x Organ"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Clubs"
+    },
+    {
+     "name": "Whips"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Gear with Unwieldy"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Down Green Affinities"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapon Crafter Gear"
+    },
+    {
+     "name": "Core Game Gear"
+    }
+   ]
+  },
+  {
+   "name": "Zanbato",
+   "url": "https://kingdomdeath.fandom.com/wiki/Zanbato",
+   "card_name": "Zanbato",
+   "speed": "1",
+   "accuracy": "6+",
+   "strength": "6",
+   "card_text": "Slow, Frail, Deadly\nAffinity Bonus: Gains Devastating 1: Whenever you wound, inflict 1 additional wound.",
+   "keywords": "weapon, melee, grand weapon, two-handed, bone, mineral",
+   "special_rules": "Slow, Frail, Deadly, Affinity Bonus",
+   "craft_blurb": "The Zanbato may be crafted once the Weapon Crafter settlement location has been built.",
+   "armor_points": [
+    {
+     "name": "Slow"
+    },
+    {
+     "name": "Frail"
+    },
+    {
+     "name": "Deadly"
+    },
+    {
+     "name": "Affinity Bonus"
+    }
+   ],
+   "crafting_reqs": [
+    {
+     "name": "1x Great Cat Bone"
+    },
+    {
+     "name": "2x Hide"
+    }
+   ],
+   "categories": [
+    {
+     "name": "Melee Weapons"
+    },
+    {
+     "name": "Grand Weapons"
+    },
+    {
+     "name": "Two-Handed Weapons"
+    },
+    {
+     "name": "Bone Gear"
+    },
+    {
+     "name": "Gear with Slow"
+    },
+    {
+     "name": "Frail Gear"
+    },
+    {
+     "name": "Deadly Gear"
+    },
+    {
+     "name": "Devastating Gear"
+    },
+    {
+     "name": "Gear with Green Affinities"
+    },
+    {
+     "name": "Gear with Right Green Affinities"
+    },
+    {
+     "name": "Gear with Red Affinities"
+    },
+    {
+     "name": "Gear with Up Red Affinities"
+    },
+    {
+     "name": "Uses for Great Cat Bones"
+    },
+    {
+     "name": "Gear"
+    },
+    {
+     "name": "Cards"
+    },
+    {
+     "name": "Weapons"
+    },
+    {
+     "name": "Mineral Gear"
+    }
+   ]
+  }
+ ]
+}
