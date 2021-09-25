@@ -1,0 +1,2533 @@
+[
+  {
+    "type": "gear",
+    "name": "Adventure Sword",
+    "keywords": ["weapon", "melee", "sword", "finesse", "other"],
+    "rules": ["Unique", "Irreplaceable"],
+    "desc": "Your courage is added to this weapon's strength.",
+    "speed": 3,
+    "accuracy": 6,
+    "strength": 0,
+    "handle": "adventure_sword",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Adventure Sword"
+  },
+  {
+    "type": "gear",
+    "name": "Almanac",
+    "keywords": ["item", "soluble", "flammable"],
+    "desc": "When you <b>depart</b>, gain +2 insanity.<br/>You cannot gain disorders.",
+    "affinities": { "right": "blue" },
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "resource_types": { "leather": 2 },
+        "innovations": ["pictograph"]
+      }
+    ],
+    "handle": "almanac",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "Almanac",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Antelope Mask",
+    "keywords": ["item", "mask", "bone", "other"],
+    "rules": ["Unique", "Irreplaceable", "Accessory"],
+    "recipes": [
+      {
+        "locations": ["mask_maker"],
+        "resource_handles": { "pelt": 1 },
+        "resource_types": { "bone": 6, "organ": 4 }
+      }
+    ],
+    "handle": "antelope_mask",
+    "sub_type": "mask_maker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Mask Maker",
+    "selector_text": "Antelope Mask",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Arc Bow",
+    "keywords": ["weapon", "ranged", "bow", "two-handed"],
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 9,
+    "rules": ["Slow", "Range 6"],
+    "desc": "<b>Cumbersome:</b> Spend <font class=\"kdm_font\">c</font> as an additional cost of activating this weapon.",
+    "affinities": { "left": "red", "right": "green" },
+    "affinity_bonus": {
+      "desc": "Range +2",
+      "requires": {
+        "puzzle": { "red": 1, "green": 1 },
+        "complete": { "blue": 1 }
+      }
+    },
+    "handle": "arc_bow",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Arc Bow"
+  },
+  {
+    "type": "gear",
+    "name": "Bandages",
+    "keywords": ["item"],
+    "affinities": { "right": "blue", "bottom": "green" },
+    "desc": "<font class=\"kdm_font\">a</font>: Remove up to 2 bleeding tokens from yourself or an adjacent survivor.",
+    "handle": "bandages",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Bandages",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Beacon Shield",
+    "keywords": ["weapon", "melee", "shield", "metal", "heavy"],
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 5,
+    "rules": ["Block 2"],
+    "desc": "Add <font class=\"inline_shield\">2</font> to all hit locations.<br/><b>Block 2:</b> Spend <font class=\"kdm_font\">a</font> to ignore 2 hits the next time you are attacked. Lasts until your next act. You cannot use <b>block</b> more than once per attack.",
+    "handle": "beacon_shield",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Beacon Shield"
+  },
+  {
+    "type": "gear",
+    "name": "Beast Knuckle",
+    "keywords": ["weapon", "melee", "katar", "bone"],
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 4,
+    "rules": ["Paired"],
+    "desc": "When you wound with this weapon, monster gains -1 toughness until end of the attack.",
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "large_flat_tooth": 1 },
+        "resource_types": { "pelt": 1 }
+      }
+    ],
+    "handle": "beast_knuckle",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Beast Knuckle"
+  },
+  {
+    "type": "gear",
+    "name": "Bird Bread",
+    "keywords": ["item", "consumable", "soluble"],
+    "affinities": { "right": "green" },
+    "desc": "<font class=\"kdm_font\">a</font> <b>Consume:</b> Once per showdown, add <font class=\"inline_shield\">1</font> to all hit locations. Gain <b>priority target</b> token. Roll 1d10. On a 1, reduce your survival to 0.",
+    "handle": "bird_bread",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Bird Bread",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Blood Paint",
+    "keywords": ["item", "soluble"],
+    "desc": "<font class=\"kdm_font\">a</font>: Activate weapon gear to the left and right of this card. These are two separate attacks. Cannot be used with two-handed weapons.",
+    "affinities": { "left": "paired", "right": "paired" },
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "bladder": 1 },
+        "resource_types": { "organ": 1 },
+        "innovations": ["paint"]
+      }
+    ],
+    "handle": "blood_paint",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Blood Paint",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Blood Sheath",
+    "keywords": ["item", "bone", "other"],
+    "rules": ["Block 1"],
+    "desc": "When Rainbow Katana is left of Blood Sheath, it loses <b>Frail</b> and gains <b>Sharp</b> (add 1d10 strength to each wound attempt).",
+    "affinities": { "left": "paired" },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_handles": { "hollow_wing_bones": 1, "muculent_droppings": 1 },
+        "resource_types": { "organ": 5 }
+      }
+    ],
+    "handle": "blood_sheath",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Blood Sheath"
+  },
+  {
+    "type": "gear",
+    "name": "Bloom Sphere",
+    "keywords": ["item", "stinky", "other"],
+    "affinities": { "left": "green", "right": "blue" },
+    "affinity_bonus": {
+      "desc": "When you are picked as a target, roll 1d10. On a 6+, the monster must pick a new target, if possible.",
+      "requires": { "puzzle": { "green": 1, "blue": 1 } }
+    },
+    "handle": "bloom_sphere",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Bloom Sphere",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Blue Charm",
+    "keywords": ["item", "jewelry", "fragile"],
+    "add_affinity": ["blue"],
+    "affinity_bonus": {
+      "desc": "<b>Unshakeable:</b> When you draw a <b>Trap</b>, roll 1d10. On a 6+, discard the <b>Trap</b> and reshuffle the deck.",
+      "requires": { "complete": { "blue": 5 } }
+    },
+    "recipes": [
+      { "locations": ["stone_circle"], "resource_types": { "organ": 3 } }
+    ],
+    "handle": "blue_charm",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Blue Charm",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Bone Axe",
+    "rules": ["Frail", "Savage"],
+    "keywords": ["weapon", "melee", "axe", "bone"],
+    "recipes": [
+      {
+        "locations": ["bone_smith"],
+        "resource_types": { "bone": 1, "organ": 1 }
+      }
+    ],
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 3,
+    "affinities": { "left": "red" },
+    "desc": "<b>Savage:</b> Once per attack, if you critically wound, cause 1 additional wound. This effect does not apply to impervious hit locations.",
+    "handle": "bone_axe",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Bone Axe"
+  },
+  {
+    "type": "gear",
+    "name": "Bone Blade",
+    "rules": ["Frail"],
+    "keywords": ["weapon", "melee", "sword", "bone"],
+    "recipes": [
+      { "locations": ["bone_smith"], "resource_types": { "bone": 1 } }
+    ],
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 2,
+    "affinities": { "left": "red" },
+    "desc": "<b>Frail:</b> When you attempt to wound a super-dense hit location, this weapon breaks.<br/>Archive this card at the end of the attack.",
+    "handle": "bone_blade",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Bone Blade"
+  },
+  {
+    "type": "gear",
+    "name": "Bone Club",
+    "keywords": ["weapon", "melee", "two-handed", "heavy", "club", "bone"],
+    "rules": ["Cumbersome"],
+    "recipes": [
+      { "locations": ["bone_smith"], "resource_types": { "bone": 3 } }
+    ],
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 5,
+    "affinities": { "left": "red", "right": "red" },
+    "desc": "<b>Cumbersome:</b> Spend <font class=\"kdm_font\">c</font> as an additional cost to activate this weapon. Ignore Cumbersome if this weapon is activated indirectly (Pounce, Charge, etc.).",
+    "handle": "bone_club",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Bone Club"
+  },
+  {
+    "type": "gear",
+    "name": "Bone Dagger",
+    "keywords": ["weapon", "melee", "dagger", "bone"],
+    "desc": "On a <b>Perfect hit</b>, gain +1 survival.<br/><b>Perfect Hit:</b> An attack roll result of a lantern 10.",
+    "recipes": [
+      { "locations": ["bone_smith"], "resource_types": { "bone": 1 } }
+    ],
+    "affinities": { "top": "red" },
+    "speed": 3,
+    "accuracy": 7,
+    "strength": 1,
+    "handle": "bone_dagger",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Bone Dagger",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Bone Darts",
+    "rules": ["Range: 6", "Frail"],
+    "keywords": ["weapon", "ranged", "thrown", "bone"],
+    "recipes": [
+      { "locations": ["bone_smith"], "resource_types": { "bone": 1 } }
+    ],
+    "desc": "<b>Frail:</b> When you attempt to wound a super-dense hit location, this weapon breaks. Archive this card at the end of the attack.",
+    "speed": 1,
+    "accuracy": 7,
+    "strength": 3,
+    "affinities": { "left": "red" },
+    "handle": "bone_darts",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Bone Darts"
+  },
+  {
+    "type": "gear",
+    "name": "Bone Earrings",
+    "keywords": ["item", "jewelry", "bone"],
+    "desc": "At the start of the showdown, gain +2 speed and +2 strength tokens if <b>insane</b> and all gear in your gear grid has the <i>bone</i> keyword.",
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "shank_bone": 1 },
+        "resource_types": { "bone": 1 }
+      }
+    ],
+    "handle": "bone_earrings",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Bone Earrings",
+    "rules": []
+  },
+  {
+    "affinities": { "top": "green" },
+    "type": "gear",
+    "name": "Bone Pickaxe",
+    "keywords": ["item", "tool", "pickaxe", "bone"],
+    "desc": "After Hunt phase setup, place the <b>Mineral Gathering</b> event on any hunt space.",
+    "recipes": [
+      {
+        "locations": ["bone_smith"],
+        "innovations": ["ammonia"],
+        "resource_types": { "bone": 1 },
+        "resource_handles": { "leather": 1 }
+      }
+    ],
+    "speed": 1,
+    "accuracy": 8,
+    "strength": 2,
+    "handle": "bone_pickaxe",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Bone Pickaxe",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Bone Sickle",
+    "keywords": ["item", "tool", "sickle", "bone"],
+    "desc": "After Hunt phase setup, place the <b>Herb Gathering</b> event on any hunt space.",
+    "recipes": [
+      {
+        "locations": ["bone_smith"],
+        "innovations": ["ammonia"],
+        "resource_types": { "bone": 1 },
+        "resource_handles": { "leather": 1 }
+      }
+    ],
+    "affinities": { "top": "green" },
+    "speed": 2,
+    "accuracy": 8,
+    "strength": 1,
+    "handle": "bone_sickle",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Bone Sickle",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Boss Mehndi",
+    "keywords": ["item", "soluble"],
+    "desc": "Boss is brave. While adjacent to you, <b>insane</b> survivors gain +1 speed.",
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "golden_whiskers": 1 },
+        "resource_types": { "bone": 1 }
+      }
+    ],
+    "handle": "boss_mehndi",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Boss Mehndi",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Brain Mint",
+    "keywords": ["item", "consumable"],
+    "affinities": { "left": "blue", "top": "green" },
+    "desc": "<font class=\"kdm_font\">a</font> <b>Consume:</b> Remove all your tokens and stand up. You may use this while knocked down. Use once per showdown.",
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "resource_handles": { "screaming_brain": 1 }
+      }
+    ],
+    "handle": "brain_mint",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "Brain Mint",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Bug Trap",
+    "keywords": ["item", "soluble"],
+    "desc": "At the start of the showdown, roll 1d10. On a 3+, add a <b>Bug Patch</b> terrain card to the showdown board.",
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "resource_handles": { "muscly_gums": 1 },
+        "resource_types": { "bone": 2 }
+      }
+    ],
+    "handle": "bug_trap",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "Bug Trap",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Butcher Cleaver",
+    "keywords": ["weapon", "melee", "axe", "other"],
+    "rules": ["Paired", "Sentient", "Irreplaceable"],
+    "speed": 2,
+    "accuracy": 5,
+    "strength": 5,
+    "desc": "<b>Sentient:</b> Must be insane to activate.<br/><b>Irreplaceable:</b> When you die, archive this card.",
+    "handle": "butcher_cleaver",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Butcher Cleaver"
+  },
+  {
+    "type": "gear",
+    "name": "Cat Eye Circlet",
+    "keywords": ["item", "jewelry", "other"],
+    "desc": "<font class=\"kdm_font\">a</font>: Reveal the next 3 monster hit locations and put them back in any order.",
+    "affinities": { "left": "blue" },
+    "handle": "cat_eye_circlet",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Cat Eye Circlet",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Cat Fang Knife",
+    "keywords": ["weapon", "melee", "dagger", "bone"],
+    "speed": 3,
+    "accuracy": 6,
+    "strength": 2,
+    "affinities": {
+      "top": "red",
+      "left": "red",
+      "right": "red",
+      "bottom": "red"
+    },
+    "affinity_bonus": {
+      "desc": "On a <b>perfect hit</b>, gain +1 strength token. When knocked down, remove all your +1 strength tokens.",
+      "requires": { "complete": { "red": 3 } }
+    },
+    "handle": "cat_fang_knife",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Cat Fang Knife",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Cat Gut Bow",
+    "keywords": ["weapon", "ranged", "bow", "two-handed"],
+    "rules": ["Cumbersome", "Range: 6"],
+    "desc": "<b>Aim:</b> When you attack, before rolling to hit, you may reduce the speed of this weapon by 1 to gain +2 accuracy for that attack.",
+    "speed": 2,
+    "accuracy": 7,
+    "strength": 3,
+    "affinities": { "top": "blue" },
+    "handle": "cat_gut_bow",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Cat Gut Bow"
+  },
+  {
+    "type": "gear",
+    "name": "Claw Head Arrow",
+    "keywords": ["item", "ammuntion", "arrow"],
+    "rules": ["Slow", "Ammo - Bow"],
+    "desc": "<b>Slow, Ammo-Bow:</b> You must have a bow in your gear grid to activate this.<br/>If you hit, monster gains -1 evasion token. Use once per showdown.",
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 6,
+    "affinities": { "right": "blue" },
+    "handle": "claw_head_arrow",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Claw Head Arrow"
+  },
+  {
+    "type": "gear",
+    "name": "Cloth",
+    "keywords": ["armor"],
+    "desc": "The Cloth protects your waist. Gain 1 armor point at the waist hit location.",
+    "armor": 1,
+    "location": "waist",
+    "handle": "cloth",
+    "sub_type": "starting_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Starting Gear",
+    "selector_text": "Cloth",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Counterweighted Axe",
+    "keywords": ["weapon", "melee", "axe", "two-handed"],
+    "rules": ["Reach 2"],
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 4,
+    "affinities": { "top": "red", "right": "green" },
+    "affinity_bonus": {
+      "desc": "Gains <b>Devastating 1</b>: Whenever you wound, inflict 1 additional wound.",
+      "requires": { "complete": { "green": 1 }, "puzzle": { "red": 1 } }
+    },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_types": { "bone": 2, "hide": 1, "organ": 1 }
+      }
+    ],
+    "handle": "counterweighted_axe",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Counterweighted Axe",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Crest Crown",
+    "keywords": ["item", "other"],
+    "affinities": {
+      "top": "blue",
+      "left": "red",
+      "right": "green",
+      "bottom": "blue"
+    },
+    "desc": "<font class=\"kdm_font\">a</font>: If <b>insane</b>, reshuffle hit location deck.",
+    "affinity_bonus": {
+      "desc": "When you depart, gain +1 insanity and +1 survival for every <font class=\"kdm_font_2 affinity_blue_text\">h</font> you have.",
+      "requires": { "puzzle": { "red": 1, "blue": 2 } }
+    },
+    "handle": "crest_crown",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Crest Crown",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Death Mask",
+    "keywords": ["item", "mask", "bone", "other"],
+    "rules": ["Unique", "Irreplaceable", "Accessory"],
+    "desc": "If you have no affinities, gain +4 luck and suffer -4 to all severe injury rolls.",
+    "recipes": [
+      {
+        "locations": ["mask_maker"],
+        "prefix_text": "-1 population",
+        "resource_types": { "bone": 6, "organ": 4 }
+      }
+    ],
+    "handle": "death_mask",
+    "sub_type": "mask_maker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Mask Maker",
+    "selector_text": "Death Mask"
+  },
+  {
+    "type": "gear",
+    "name": "Dragon Slayer",
+    "affinities": { "top": "blue", "right": "red" },
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 9,
+    "keywords": [
+      "weapon",
+      "melee",
+      "grand weapon",
+      "two-handed",
+      "heavy",
+      "metal"
+    ],
+    "rules": ["Frail", "Slow", "Sharp", "Devastating 1", "Early Iron"],
+    "desc": "<b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+    "handle": "dragon_slayer",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Dragon Slayer"
+  },
+  {
+    "type": "gear",
+    "name": "Dried Acanthus",
+    "keywords": ["item", "herb", "consumable"],
+    "desc": "When you <b>depart</b>, gain +2 survival. When you suffer a severe injury, ignore it and archive this card instead.",
+    "recipes": [
+      {
+        "locations": ["organ_grinder"],
+        "resource_handles": { "fresh_acanthus": 1 }
+      }
+    ],
+    "handle": "dried_acanthus",
+    "sub_type": "organ_grinder",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Organ Grinder",
+    "selector_text": "Dried Acanthus",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Elder Earrings",
+    "keywords": ["item", "jewelry"],
+    "affinities": { "left": "red", "right": "green", "bottom": "blue" },
+    "desc": "At the start of the <b>showdown</b>, gain +2 survival. +1 Hunt XP after a showdown.",
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "resource_handles": { "shank_bone": 1 },
+        "resource_types": { "scrap": 1 }
+      }
+    ],
+    "handle": "elder_earrings",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "Elder Earrings",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Feather Mantle",
+    "keywords": ["item", "flammable"],
+    "affinities": { "left": "blue", "right": "green", "bottom": "red" },
+    "desc": "When you suffer <b>knockback</b>, you may ignore <b>collision</b> with other survivors and reduce movement by up to 3 spaces.",
+    "handle": "feather_mantle",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Feather Mantle",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Feather Shield",
+    "keywords": ["weapon", "melee", "shield", "flammable"],
+    "speed": 3,
+    "accuracy": 7,
+    "strength": 0,
+    "rules": ["Block 1"],
+    "affinities": { "top": "blue" },
+    "affinity_bonus": {
+      "desc": "Reduce any suffered brain damage by 1 to a minimum of 1.",
+      "requires": { "complete": { "red": 1, "blue": 1, "green": 1 } }
+    },
+    "handle": "feather_shield",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Feather Shield",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Fecal Salve",
+    "keywords": ["item", "balm", "stinky"],
+    "desc": "When you <b>depart</b>, gain +1 survival<br/><font class=\"kdm_font\">a</font>: You are not a <b>threat</b> until you attack. If you have the <b>priority target</b> token, remove it.",
+    "affinities": { "left": "blue" },
+    "recipes": [
+      { "locations": ["organ_grinder"], "resource_types": { "organ": 1 } }
+    ],
+    "handle": "fecal_salve",
+    "sub_type": "organ_grinder",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Organ Grinder",
+    "selector_text": "Fecal Salve",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Final Lantern",
+    "keywords": ["item", "other"],
+    "rules": ["Vital"],
+    "affinities": { "left": "blue", "top": "green" },
+    "desc": "On <b>Arrival</b>, all survivors gain the <b>Horripilation</b> survivor status card. (See the Watcher's AI Deck.) When not <b>insane</b>, flip this card.",
+    "handle": "final_lantern",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Final Lantern"
+  },
+  {
+    "type": "gear",
+    "name": "Finger of God",
+    "keywords": ["weapon", "melee", "spear", "two-handed"],
+    "rules": ["Reach 2"],
+    "speed": 2,
+    "accuracy": 5,
+    "strength": 5,
+    "affinities": { "top": "red" },
+    "affinity_bonus": {
+      "desc": "As long as you have 5+ survival, gain +1 accuracy and +1 strength.",
+      "requires": { "complete": { "red": 1, "blue": 1, "green": 1 } }
+    },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_handles": { "phoenix_finger": 1 },
+        "resource_types": { "bone": 4 }
+      }
+    ],
+    "handle": "finger_of_god",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Finger of God",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "First Aid Kit",
+    "affinities": {
+      "top": "green",
+      "left": "green",
+      "right": "green",
+      "bottom": "green"
+    },
+    "keywords": ["item", "heavy"],
+    "desc": "On <b>Arrival</b>, all survivors gain +3 survival.<br/><font class=\"kdm_font\">a</font>: Remove 1 bleeding or negative attribute token from yourself or an adjacent survivor.",
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "resource_types": { "leather": 1, "bone": 2 }
+      }
+    ],
+    "handle": "first_aid_kit",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "First Aid Kit",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Forsaker Mask",
+    "keywords": ["item", "mask", "metal", "other"],
+    "rules": ["Unique", "Irreplaceable", "Accessory"],
+    "desc": "During the Aftermath, you run off into the darkness never to be seen again.<hr/>During the Settlement Phase, you may archive this item to build the <b>Mask Maker</b> location.",
+    "armor": 2,
+    "location": "head",
+    "handle": "forsaker_mask",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Forsaker Mask"
+  },
+  {
+    "type": "gear",
+    "name": "Founding Stone",
+    "keywords": ["weapon", "melee", "stone"],
+    "desc": "Spend <font class=\"kdm_font\">a</font> to sling the stone from anywhere on the board! Archive this card for 1 automatic hit that inflicts a critical wound.<br/><b>Archive:</b> Return this card to the game box.",
+    "speed": 2,
+    "accuracy": 7,
+    "strength": 1,
+    "handle": "founding_stone",
+    "sub_type": "starting_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Starting Gear",
+    "selector_text": "Founding Stone",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Frenzy Drink",
+    "keywords": ["item", "consumable", "fragile"],
+    "desc": "<font class=\"kdm_font\">a</font> <b>Consume:</b> Suffer <b>Frenzy</b> brain trauma. Can be used once per showdown.",
+    "handle": "frenzy_drink",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Frenzy Drink",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "God Mask",
+    "keywords": ["item", "mask", "bone", "other"],
+    "rules": ["Unique", "Irreplaceable", "Accessory"],
+    "recipes": [
+      {
+        "locations": ["mask_maker"],
+        "gear_handles": { "founding_stone": 1 },
+        "resource_types": { "bone": 6, "organ": 4 }
+      }
+    ],
+    "handle": "god_mask",
+    "sub_type": "mask_maker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Mask Maker",
+    "selector_text": "God Mask",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Green Charm",
+    "keywords": ["item", "jewelry", "fragile"],
+    "add_affinity": ["green"],
+    "affinity_bonus": {
+      "desc": "<b>Undeathable:</b> If you would die, roll 1d10. On a 6+, you inexplicably survive.",
+      "requires": { "complete": { "green": 5 } }
+    },
+    "recipes": [
+      { "locations": ["stone_circle"], "resource_types": { "organ": 3 } }
+    ],
+    "handle": "green_charm",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Green Charm",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Hollow Sword",
+    "keywords": ["weapon", "melee", "sword", "bone"],
+    "speed": 3,
+    "accuracy": 5,
+    "strength": 3,
+    "rules": ["Frail", "Paired"],
+    "desc": "On a <b>perfect hit</b>, make 1 additional attack roll.",
+    "handle": "hollow_sword",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Hollow Sword"
+  },
+  {
+    "type": "gear",
+    "name": "Hollowpoint Arrow",
+    "keywords": ["item", "ammunition", "arrow"],
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 11,
+    "rules": ["Slow", "Ammo - Bow"],
+    "desc": "On a hit, monster gains -1 movement token. Use once per showdown.",
+    "handle": "hollowpoint_arrow",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Hollowpoint Arrow"
+  },
+  {
+    "type": "gear",
+    "name": "Hours Ring",
+    "keywords": ["item", "other"],
+    "rules": ["Unique", "Selfish"],
+    "desc": "Do not gain any tokens for any reason. Do not gain Hunt XP or weapon proficiency. <b>Retired</b> wearers can <b>depart</b>.",
+    "handle": "hours_ring",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Hours Ring"
+  },
+  {
+    "type": "gear",
+    "name": "Hunter Whip",
+    "affinities": { "top": "blue", "right": "blue" },
+    "keywords": ["weapon", "melee", "whip", "leather"],
+    "speed": 3,
+    "accuracy": 6,
+    "strength": 3,
+    "affinity_bonus": {
+      "desc": "On a <b>Perfect hit</b>, discard 1 mood in play.",
+      "requires": { "puzzle": { "blue": 2 } }
+    },
+    "recipes": [
+      {
+        "locations": ["leather_worker"],
+        "resource_types": { "leather": 2, "bone": 1 }
+      }
+    ],
+    "handle": "hunter_whip",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Hunter Whip",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "King Spear",
+    "keywords": ["weapon", "melee", "spear", "heavy", "two-handed"],
+    "rules": ["Reach 2"],
+    "affinities": { "right": "red" },
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 3,
+    "desc": "<b>Reach 2:</b> May attack from 2 spaces away.",
+    "handle": "king_spear",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "King Spear"
+  },
+  {
+    "type": "gear",
+    "name": "Lance of Longinus",
+    "keywords": ["melee", "weapon", "spear", "two-handed", "bone"],
+    "rules": ["Irreplaceable", "Reach 2"],
+    "desc": "Each showdown, the first time you wound, the monster gains a -1 toughness token.",
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 9,
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "legendary_horns": 1 },
+        "resource_types": { "organ": 6 }
+      }
+    ],
+    "handle": "lance_of_longinus",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Lance of Longinus"
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Armor Set",
+    "desc": "You feel invincible. On <b>Arrival</b>, gain survival up to the survival limit.<br/>The extra weight is leverage. All clubs in your gear grid gain <b>Sharp</b>.",
+    "handle": "lantern_armor_set",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Armor Set",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Cuirass",
+    "armor": 5,
+    "location": "body",
+    "keywords": ["armor", "set", "metal", "heavy"],
+    "desc": "-2 movement.",
+    "affinities": {
+      "top": "blue",
+      "left": "green",
+      "right": "green",
+      "bottom": "blue"
+    },
+    "affinity_bonus": {
+      "desc": "When you <b>depart</b>, add <font class=\"inline_shield\">3</font> to all hit locations with metal armor.",
+      "requires": { "puzzle": { "green": 2, "blue": 2 } }
+    },
+    "handle": "lantern_cuirass",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Cuirass",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Dagger",
+    "keywords": ["weapon", "melee", "dagger", "finesse", "metal"],
+    "speed": 2,
+    "accuracy": 7,
+    "strength": 1,
+    "affinities": { "right": "red" },
+    "rules": ["Paired", "Sharp", "Early Iron"],
+    "desc": "<b>Sharp:</b> Add 1d10 strength to each wound attempt.<br/><b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+    "handle": "lantern_dagger",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Dagger"
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Gauntlets",
+    "armor": 5,
+    "keywords": ["armor", "set", "metal", "heavy"],
+    "affinities": { "left": "green" },
+    "affinity_bonus": {
+      "desc": "+2 accuracy with <b>club</b> weapons.",
+      "requires": { "puzzle": { "green": 1 } }
+    },
+    "handle": "lantern_gauntlets",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Gauntlets",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Glaive",
+    "keywords": [
+      "weapon",
+      "melee",
+      "spear",
+      "axe",
+      "two-handed",
+      "finesse",
+      "metal"
+    ],
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 4,
+    "rules": ["Reach 2", "Sharp", "Early Iron"],
+    "affinities": { "bottom": "green" },
+    "desc": "<b>Sharp:</b> Add 1d10 strength to each wound attempt.<br/><b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+    "handle": "lantern_glaive",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Glaive"
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Greaves",
+    "keywords": ["armor", "set", "metal", "heavy"],
+    "affinity_bonus": {
+      "desc": "+2 movement.",
+      "requires": { "puzzle": { "red": 2, "blue": 1 } }
+    },
+    "affinities": { "left": "red", "right": "red", "top": "blue" },
+    "armor": 5,
+    "location": "legs",
+    "handle": "lantern_greaves",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Greaves",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Halberd",
+    "keywords": ["weapon", "melee", "two-handed", "spear", "other"],
+    "rules": ["Reach 2", "Irreplaceable", "Unique"],
+    "desc": "After attacking, if standing, you may move up to 2 spaces directly away from the monster.",
+    "speed": 2,
+    "accuracy": 4,
+    "strength": 7,
+    "handle": "lantern_halberd",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Lantern Halberd"
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Helm",
+    "keywords": ["armor", "set", "metal", "heavy"],
+    "armor": 5,
+    "location": "head",
+    "affinities": { "bottom": "blue" },
+    "affinity_bonus": {
+      "desc": "Ear Plugs. You are <b>deaf</b>, -1 accuracy.",
+      "requires": { "puzzle": { "blue": 1 } }
+    },
+    "handle": "lantern_helm",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Helm",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Mail",
+    "keywords": ["armor", "set", "metal", "heavy"],
+    "armor": 5,
+    "location": "waist",
+    "affinities": { "right": "green" },
+    "handle": "lantern_mail",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Mail",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Lantern Sword",
+    "affinities": { "left": "red" },
+    "keywords": ["weapon", "melee", "sword", "finesse", "metal"],
+    "speed": 3,
+    "accuracy": 5,
+    "strength": 3,
+    "desc": "<b>Sharp:</b> Add 1d10 strength to each wound attempt.<br/><b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+    "handle": "lantern_sword",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Lantern Sword",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Leather Armor Set",
+    "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/>You ignore <b>bash</b>.",
+    "handle": "leather_armor_set",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Leather Armor Set",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Leather Boots",
+    "armor": 3,
+    "location": "legs",
+    "affinities": { "left": "green", "right": "green" },
+    "affinity_bonus": {
+      "desc": "At the end of your act, you may move 1 space.",
+      "requires": { "puzzle": { "green": 2 } }
+    },
+    "keywords": ["armor", "set", "leather"],
+    "recipes": [
+      {
+        "locations": ["leather_worker"],
+        "resource_types": { "leather": 1, "hide": 1 }
+      }
+    ],
+    "handle": "leather_boots",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Leather Boots",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Leather Bracers",
+    "armor": 3,
+    "location": "arms",
+    "keywords": ["armor", "set", "leather"],
+    "desc": "When you <b>depart</b>, gain +2 survival.",
+    "affinities": { "right": "green" },
+    "recipes": [
+      {
+        "locations": ["leather_worker"],
+        "resource_types": { "leather": 1, "hide": 1 }
+      }
+    ],
+    "handle": "leather_bracers",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Leather Bracers",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Leather Cuirass",
+    "armor": 3,
+    "location": "body",
+    "keywords": ["armor", "set", "leather"],
+    "affinities": { "top": "red", "bottom": "blue" },
+    "recipes": [
+      {
+        "locations": ["leather_worker"],
+        "resource_types": { "leather": 1, "bone": 1 }
+      }
+    ],
+    "handle": "leather_cuirass",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Leather Cuirass",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Leather Mask",
+    "armor": 3,
+    "location": "head",
+    "keywords": ["armor", "set", "leather"],
+    "affinities": { "top": "blue", "bottom": "red" },
+    "desc": "When you <b>depart</b>, gain +2 insanity.",
+    "recipes": [
+      {
+        "locations": ["leather_worker"],
+        "resource_types": { "leather": 1, "scrap": 1 }
+      }
+    ],
+    "handle": "leather_mask",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Leather Mask",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Leather Skirt",
+    "armor": 3,
+    "location": "waist",
+    "affinities": { "bottom": "green" },
+    "keywords": ["armor", "set", "leather"],
+    "recipes": [
+      { "locations": ["leather_worker"], "resource_types": { "leather": 1 } }
+    ],
+    "handle": "leather_skirt",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Leather Skirt",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Lion Beast Katar",
+    "keywords": ["weapon", "melee", "katar"],
+    "rules": ["Deadly", "Paired"],
+    "speed": 2,
+    "accuracy": 7,
+    "strength": 3,
+    "desc": "<b>Deadly:</b> +1 luck with this weapon.<br/><b>Paired:</b> When you attack, add the speed of a 2<sup>nd</sup> Lion Beast Katar in your gear grid.",
+    "handle": "lion_beast_katar",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Lion Beast Katar"
+  },
+  {
+    "type": "gear",
+    "name": "Lion Headdress",
+    "keywords": ["item", "flammable"],
+    "rules": ["Accessory"],
+    "armor": 1,
+    "location": "head",
+    "desc": "<b>Accessory:</b> You may wear this in addition to 1 armor at this hit location",
+    "handle": "lion_headdress",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Lion Headdress"
+  },
+  {
+    "type": "gear",
+    "name": "Lion Skin Cloak",
+    "keywords": ["armor", "fur", "bone", "heavy", "flammable"],
+    "desc": "Reduce damage from every hit suffered by 1, to a minimum of 1.",
+    "armor": 0,
+    "location": "body",
+    "affinities": { "green": "right" },
+    "handle": "lion_skin_cloak",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Lion Skin Cloak",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Lucky Charm",
+    "keywords": ["item", "jewelry"],
+    "affinities": { "left": "blue", "right": "blue" },
+    "affinity_bonus": {
+      "desc": "+1 luck",
+      "requires": { "complete": { "blue": 2 } }
+    },
+    "recipes": [
+      { "locations": ["organ_grinder"], "resource_types": { "organ": 1 } }
+    ],
+    "handle": "lucky_charm",
+    "sub_type": "organ_grinder",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Organ Grinder",
+    "selector_text": "Lucky Charm",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Man Mask",
+    "keywords": ["item", "mask", "bone", "other"],
+    "rules": ["Unique", "Irreplaceable", "Accessory"],
+    "recipes": [
+      {
+        "locations": ["mask_maker"],
+        "resource_handles": { "skull": 1 },
+        "resource_types": { "bone": 6, "organ": 4 }
+      }
+    ],
+    "handle": "man_mask",
+    "sub_type": "mask_maker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Mask Maker",
+    "selector_text": "Man Mask",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Monster Grease",
+    "keywords": ["item", "consumable", "soluble", "stinky"],
+    "desc": "Gain +1 evasion.",
+    "affinities": { "left": "green" },
+    "affinity_bonus": {
+      "desc": "+1 evasion",
+      "requires": { "complete": { "green": 3 } }
+    },
+    "recipes": [
+      { "locations": ["organ_grinder"], "resource_types": { "organ": 1 } }
+    ],
+    "handle": "monster_grease",
+    "sub_type": "organ_grinder",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Organ Grinder",
+    "selector_text": "Monster Grease",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Monster Tooth Necklace",
+    "keywords": ["item", "jewelry", "bone"],
+    "desc": "Gain +1 strength.",
+    "affinities": { "right": "red" },
+    "affinity_bonus": {
+      "desc": "+1 strength",
+      "requires": { "complete": { "red": 2 } }
+    },
+    "recipes": [
+      {
+        "locations": ["organ_grinder"],
+        "resource_types": { "scrap": 1, "bone": 1 },
+        "prefix_text": "<b>Heat</b> Required."
+      }
+    ],
+    "handle": "monster_tooth_necklace",
+    "sub_type": "organ_grinder",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Organ Grinder",
+    "selector_text": "Monster Tooth Necklace",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Muramasa",
+    "keywords": ["weapon", "melee", "katana", "two-handed", "other"],
+    "rules": ["Frail", "Sharp", "Sentient", "Deadly 2", "Unique"],
+    "desc": "When you critically wound with this weapon, gain 2 bleeding tokens.",
+    "speed": 6,
+    "accuracy": 6,
+    "strength": 6,
+    "handle": "muramasa",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Muramasa"
+  },
+  {
+    "type": "gear",
+    "name": "Musk Bomb",
+    "keywords": ["item", "stinky", "thrown", "fragile"],
+    "desc": "If adjacent to monster when it draws <font class=\"kdm_font_10\">b</font>, you may spend 2 survival and archive Musk Bomb to roll 1d10. On a 3+, discard <font class=\"kdm_font_10\">b</font> without playing it.",
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "prefix_text": "7x resources",
+        "innovations": ["pottery"]
+      }
+    ],
+    "handle": "musk_bomb",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "Musk Bomb",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Oxidized Beacon Shield",
+    "keywords": ["weapon", "melee", "shield", "metal", "heavy"],
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 6,
+    "rules": ["Deflect 2"],
+    "desc": "Add <font class=\"inline_shield\">2</font> to all hit locations.<br/><b>Deflect 2</b>: Spend <font class=\"kdm_font\">a</font>. You now have exactly 2 deflect tokens. The next 2 times you are hit, ignore a hit and and lose 1 deflect token.",
+    "handle": "oxidized_beacon_shield",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Oxidized Beacon Shield"
+  },
+  {
+    "type": "gear",
+    "name": "Oxidized Lantern Dagger",
+    "keywords": ["weapon", "melee", "dagger", "finesse", "metal"],
+    "speed": 3,
+    "accuracy": 6,
+    "strength": 4,
+    "rules": ["Sharp", "Paired"],
+    "affinities": { "left": "red", "right": "red" },
+    "affinity_bonus": {
+      "desc": "On a <b>Perfect hit</b>, gain +1 survival.",
+      "requires": { "puzzle": { "red": 1 }, "complete": { "red": 1 } }
+    },
+    "handle": "oxidized_lantern_dagger",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Oxidized Lantern Dagger",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Oxidized Lantern Glaive",
+    "keywords": [
+      "weapon",
+      "melee",
+      "spear",
+      "axe",
+      "two-handed",
+      "finesse",
+      "metal"
+    ],
+    "affinities": { "bottom": "green" },
+    "rules": ["Sharp", "Reach 2"],
+    "speed": 2,
+    "accuracy": 5,
+    "strength": 6,
+    "affinity_bonus": {
+      "desc": "On a <b>Perfect hit</b>, the edge sharpens. This weapon gains +4 strength for this attack.",
+      "requires": { "puzzle": { "green": 1 }, "complete": { "red": 1 } }
+    },
+    "handle": "oxidized_lantern_glaive",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Oxidized Lantern Glaive",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Oxidized Lantern Helm",
+    "armor": 6,
+    "location": "head",
+    "keywords": ["armor", "set", "metal"],
+    "rules": ["Outfit"],
+    "affinities": { "bottom": "blue" },
+    "affinity_bonus": {
+      "desc": "If you are not deaf, you may ignore effects that target non-deaf survivors.",
+      "requires": { "puzzle": { "blue": 1 }, "complete": { "red": 1 } }
+    },
+    "handle": "oxidized_lantern_helm",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Oxidized Lantern Helm",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Oxidized Lantern Sword",
+    "keywords": ["weapon", "melee", "sword", "finesse", "metal"],
+    "affinities": { "right": "red" },
+    "speed": 3,
+    "accurady": 5,
+    "strength": 5,
+    "rules": ["Sharp", "Deflect 1"],
+    "desc": "<b>Deflect 1</b>: Spend <font class=\"kdm_font\">a</font>. You now have exactly 1 deflect token. The next 1 time you are hit, ignore a hit and and lose 1 deflect token.",
+    "handle": "oxidized_lantern_sword",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Oxidized Lantern Sword"
+  },
+  {
+    "type": "gear",
+    "name": "Oxidized Ring Whip",
+    "keywords": ["weapon", "melee", "whip", "finesse", "metal"],
+    "rules": ["Sharp", "Reach 2"],
+    "affinities": { "left": "blue" },
+    "speed": 2,
+    "accuracy": 5,
+    "strength": 3,
+    "affinity_bonus": {
+      "desc": "Gains <b>Provoke</b> (see Rawhide Whip).",
+      "requires": { "puzzle": { "blue": 1 }, "complete": { "red": 3 } }
+    },
+    "handle": "oxidized_ring_whip",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Oxidized Ring Whip",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Perfect Slayer",
+    "keywords": [
+      "weapon",
+      "melee",
+      "grand weapon",
+      "two-handed",
+      "sword",
+      "heavy",
+      "finesse",
+      "metal"
+    ],
+    "desc": "-2 movement",
+    "rules": ["Slow", "Sharp", "Devastating 2", "Irreplaceable"],
+    "affinities": { "bottom": "red" },
+    "speed": 3,
+    "accuracy": 6,
+    "strength": 14,
+    "handle": "perfect_slayer",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Perfect Slayer"
+  },
+  {
+    "type": "gear",
+    "name": "Phoenix Armor Set",
+    "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/><b>Charge:</b> Spend <font class=\"kdm_font\">c a</font>, full move in a straight line. At the end of the movement, activate a melee weapon and attack. Add the number of spaces you moved to your strength for the attack.",
+    "handle": "phoenix_armor_set",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Phoenix Armor Set",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Phoenix Faulds",
+    "keywords": ["armor", "set", "feather", "metal", "flammable"],
+    "armor": 4,
+    "location": "waist",
+    "desc": "When you <b>depart</b>, gain +1 insanity.",
+    "handle": "phoenix_faulds",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Phoenix Faulds",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Phoenix Gauntlet",
+    "armor": 4,
+    "location": "arms",
+    "keywords": ["armor", "set", "feather", "metal", "flammable"],
+    "desc": "When you <b>depart</b>, gain +1 insanity.",
+    "handle": "phoenix_gauntlet",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Phoenix Gauntlet",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Phoenix Greaves",
+    "keywords": ["armor", "set", "feather", "metal", "flammable"],
+    "affinities": { "right": "red" },
+    "armor": 4,
+    "location": "legs",
+    "desc": "If <b>insane</b>, gain +2 movement.",
+    "handle": "phoenix_greaves",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Phoenix Greaves",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Phoenix Helm",
+    "keywords": ["armor", "set", "feather", "metal", "flammable"],
+    "armor": 4,
+    "location": "head",
+    "affinities": { "bottom": "blue" },
+    "affinity_bonus": {
+      "desc": "If <b>insane</b> at the start of the showdown, gain +1 evasion token.",
+      "requires": {
+        "puzzle": { "blue": 1 },
+        "complete": { "green": 1, "red": 1 }
+      }
+    },
+    "handle": "phoenix_helm",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Phoenix Helm",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Phoenix Mask",
+    "keywords": ["item", "mask", "bone", "other"],
+    "rules": ["Unique", "Irreplaceable", "Accessory"],
+    "recipes": [
+      {
+        "locations": ["mask_maker"],
+        "resource_handles": { "small_feather": 1 },
+        "resource_types": { "bone": 6, "organ": 4 }
+      }
+    ],
+    "handle": "phoenix_mask",
+    "sub_type": "mask_maker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Mask Maker",
+    "selector_text": "Phoenix Mask",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Phoenix Plackart",
+    "keywords": ["armor", "set", "feather", "metal", "flammable"],
+    "location": "body",
+    "armor": 4,
+    "affinities": { "top": "blue", "left": "green", "right": "red" },
+    "affinity_bonus": {
+      "desc": "If <b>insane</b>, ignore the first hit each round and suffer 1 brain damage instead.",
+      "requires": { "puzzle": { "red": 1, "blue": 1, "green": 1 } }
+    },
+    "handle": "phoenix_plackart",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Phoenix Plackart",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Portcullis Key",
+    "desc": "<i>This is the key to the portcullis. Without it, you will never get through.</i>",
+    "handle": "portcullis_key",
+    "sub_type": "other",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Other",
+    "selector_text": "Portcullis Key",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Rainbow Katana",
+    "keywords": ["weapon", "melee", "katana", "finesse", "two-handed"],
+    "rules": ["Frail"],
+    "speed": 4,
+    "accuracy": 4,
+    "strength": 4,
+    "affinities": { "left": "red" },
+    "affinity_bonus": {
+      "desc": "Gains <b>Deadly</b>.",
+      "requires": {
+        "complete": { "green": 1, "blue": 1 },
+        "puzzle": { "red": 1 }
+      }
+    },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_handles": { "bird_beak": 1, "rainbow_droppings": 1 },
+        "resource_types": { "iron": 1, "bone": 6 },
+        "suffix_text": "<b>Heat</b> Required."
+      }
+    ],
+    "handle": "rainbow_katana",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Rainbow Katana",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Rawhide Armor Set",
+    "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/>When you perform a survival action, roll 1d10. On a result of 6+, gain +1 survival.",
+    "handle": "rawhide_armor_set",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Armor Set",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "armor": 1,
+    "location": "legs",
+    "name": "Rawhide Boots",
+    "keywords": ["armor", "set", "rawhide"],
+    "desc": "When you <b>depart</b>, gain +1 survival",
+    "recipes": [{ "locations": ["skinnery"], "resource_types": { "hide": 1 } }],
+    "handle": "rawhide_boots",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Boots",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Rawhide Drum",
+    "affinities": { "left": "green" },
+    "keywords": ["item", "rawhide", "instrument", "noisy"],
+    "desc": "On <b>Arrival</b>, all survivors gain +1 insanity.<br/>Inspirational drumming! When you perform <b>encourage</b>, all non-deaf survivors are affected.",
+    "handle": "rawhide_drum",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Drum",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Rawhide Gloves",
+    "location": "arms",
+    "armor": 1,
+    "affinities": { "left": "red" },
+    "desc": "When you <b>depart</b>, gain +1 survival",
+    "keywords": ["armor", "set", "rawhide"],
+    "recipes": [{ "locations": ["skinnery"], "resource_types": { "hide": 1 } }],
+    "handle": "rawhide_gloves",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Gloves",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Rawhide Headband",
+    "location": "head",
+    "armor": 1,
+    "affinities": { "bottom": "blue" },
+    "keywords": ["armor", "set", "rawhide"],
+    "affinity_bonus": {
+      "desc": "<font class=\"kdm_font\">a</font>: reveal the top 2 <font class=\"kdm_font_10\">b</font>. Place them back on top of the deck in any order.",
+      "requires": { "puzzle": { "blue": 1 } }
+    },
+    "recipes": [{ "locations": ["skinnery"], "resource_types": { "hide": 1 } }],
+    "handle": "rawhide_headband",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Headband",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Rawhide Pants",
+    "armor": 1,
+    "location": "legs",
+    "keywords": ["armor", "set", "rawhide"],
+    "recipes": [{ "locations": ["skinnery"], "resource_types": { "hide": 1 } }],
+    "handle": "rawhide_pants",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Pants",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Rawhide Vest",
+    "armor": 1,
+    "location": "body",
+    "affinities": { "top": "blue", "right": "red" },
+    "keywords": ["armor", "set", "rawhide"],
+    "affinity_bonus": {
+      "desc": "+1 Evasion",
+      "requires": { "puzzle": { "red": 1, "blue": 1 } }
+    },
+    "recipes": [{ "locations": ["skinnery"], "resource_types": { "hide": 1 } }],
+    "handle": "rawhide_vest",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Vest",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Rawhide Whip",
+    "keywords": ["weapon", "melee", "whip", "rawhide"],
+    "desc": "<b>Provoke:</b> When you wound with this weapon, gain the <b>priority target</b> token.",
+    "speed": 3,
+    "accuracy": 7,
+    "strength": 1,
+    "handle": "rawhide_whip",
+    "sub_type": "skinnery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Skinnery",
+    "selector_text": "Rawhide Whip",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Red Charm",
+    "keywords": ["item", "jewelry", "fragile"],
+    "add_affinity": ["red"],
+    "affinity_bonus": {
+      "desc": "<b>Unstoppable:</b> When you attempt to wound, instead roll 1d10. On a 1-5 fail. On 6-10, wound.",
+      "requires": { "complete": { "red": 5 } }
+    },
+    "recipes": [
+      { "locations": ["stone_circle"], "resource_types": { "organ": 3 } }
+    ],
+    "handle": "red_charm",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Red Charm",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Regal Faulds",
+    "keywords": ["armor", "bone", "metal"],
+    "rules": ["Cursed"],
+    "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+    "armor": 4,
+    "location": "waist",
+    "handle": "regal_faulds",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Regal Faulds"
+  },
+  {
+    "type": "gear",
+    "name": "Regal Gauntlet",
+    "keywords": ["armor", "bone", "metal"],
+    "rules": ["Cursed"],
+    "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+    "armor": 4,
+    "location": "arms",
+    "handle": "regal_gauntlet",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Regal Gauntlet"
+  },
+  {
+    "type": "gear",
+    "name": "Regal Greaves",
+    "keywords": ["armor", "bone", "metal"],
+    "rules": ["Cursed"],
+    "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+    "armor": 4,
+    "location": "legs",
+    "handle": "regal_greaves",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Regal Greaves"
+  },
+  {
+    "type": "gear",
+    "name": "Regal Helm",
+    "keywords": ["armor", "bone", "metal"],
+    "rules": ["Cursed"],
+    "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+    "armor": 4,
+    "location": "head",
+    "handle": "regal_helm",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Regal Helm"
+  },
+  {
+    "type": "gear",
+    "name": "Regal Plackart",
+    "keywords": ["armor", "bone", "metal"],
+    "rules": ["Cursed"],
+    "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+    "armor": 4,
+    "location": "body",
+    "handle": "regal_plackart",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Regal Plackart"
+  },
+  {
+    "type": "gear",
+    "name": "Ring Whip",
+    "rules": ["Sharp", "Reach 2"],
+    "affinities": { "left": "blue" },
+    "keywords": ["weapon", "melee", "whip", "finesse", "metal"],
+    "desc": "<b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+    "speed": 2,
+    "accuracy": 5,
+    "strength": 0,
+    "handle": "ring_whip",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Ring Whip"
+  },
+  {
+    "type": "gear",
+    "name": "Round Leather Shield",
+    "keywords": ["weapon", "melee", "shield", "leather"],
+    "rules": ["Block 1"],
+    "speed": 1,
+    "accuracy": 8,
+    "strength": 1,
+    "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/><b>Block 1:</b> Spend <font class=\"kdm_font\">a</font> to ignore 1 hit the next time you are attacked. Lasts until your next act. You cannot use <b>block</b> more than once per attack.",
+    "affinities": { "top": "green" },
+    "recipes": [
+      {
+        "locations": ["leather_worker"],
+        "resource_types": { "leather": 1, "bone": 1, "hide": 1 }
+      }
+    ],
+    "handle": "round_leather_shield",
+    "sub_type": "leather_worker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Leather Worker",
+    "selector_text": "Round Leather Shield"
+  },
+  {
+    "type": "gear",
+    "name": "Scavenger Kit",
+    "affinities": { "bottom": "green" },
+    "keywords": ["item", "heavy"],
+    "rules": ["Unique"],
+    "desc": "When you defeat a monster, gain either 1 random basic resource or 1 random monster resource from that monster's resource deck.",
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "resource_types": { "scrap": 1 },
+        "resource_handles": { "pelt": 1 }
+      }
+    ],
+    "handle": "scavenger_kit",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "Scavenger Kit"
+  },
+  {
+    "type": "gear",
+    "name": "Scrap Dagger",
+    "keywords": ["weapon", "melee", "dagger", "metal"],
+    "desc": "On a <b>Perfect hit</b>, the edge sharpens. Gain +2 strength for the rest of the attack.",
+    "speed": 3,
+    "accuracy": 7,
+    "strength": 2,
+    "affinities": { "top": "red", "right": "red" },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_types": { "scrap": 1, "bone": 1 },
+        "suffix_text": "<b>Heat</b> Required."
+      }
+    ],
+    "handle": "scrap_dagger",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Scrap Dagger",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Scrap Shield",
+    "keywords": ["weapon", "melee", "shield", "bone", "metal"],
+    "affinities": { "right": "red" },
+    "rules": ["Block 1"],
+    "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/><b>Block 1:</b> Spend <font class=\"kdm_font\">a</font> to ignore 1 hit the next time you are attacked. Lasts until your next act. You cannot use <b>block</b> more than once per attack.",
+    "speed": 2,
+    "accuracy": 7,
+    "strength": 3,
+    "handle": "scrap_shield",
+    "sub_type": "blacksmith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Blacksmith",
+    "selector_text": "Scrap Shield"
+  },
+  {
+    "type": "gear",
+    "name": "Scrap Sword",
+    "keywords": ["weapon", "melee", "sword", "metal"],
+    "desc": "On a <b>Perfect hit</b>, the edge sharpens. Gain +4 strength for the rest of the attack.",
+    "speed": 2,
+    "accuracy": 5,
+    "strength": 3,
+    "affinities": { "top": "blue" },
+    "affinity_bonus": {
+      "desc": "Gains <b>Deadly</b>.",
+      "requires": { "complete": { "red": 2, "blue": 1 } }
+    },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_types": { "scrap": 1, "bone": 2 },
+        "suffix_text": "<b>Heat</b> Required."
+      }
+    ],
+    "handle": "scrap_sword",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Scrap Sword",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Screaming Armor Set",
+    "desc": "Add <font class=\"inline_shield\">2</font> to all hit locations.<br/><b>Skewer:</b> After you <b>slam</b>, spend <font class=\"kdm_font\">a</font> to move 1 space and activate a melee weapon with +2 strength. If you wound with a spear, apply that wound roll result to the next selected hit location this attack.",
+    "handle": "screaming_armor_set",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Screaming Armor Set",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Screaming Bracers",
+    "armor": 2,
+    "keywords": ["armor", "set", "fur"],
+    "affinities": { "left": "red", "top": "green" },
+    "location": "arms",
+    "desc": "On <b>Arrival</b>, if possible, add an <b>Acanthus Plant</b> terrain card to the showdown. When you activate terrain, you may add +2 to your roll result.",
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "pelt": 1 },
+        "resource_types": { "hide": 1 }
+      }
+    ],
+    "handle": "screaming_bracers",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Screaming Bracers",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Screaming Coat",
+    "affinities": {
+      "top": "blue",
+      "left": "green",
+      "right": "blue",
+      "bottom": "green"
+    },
+    "armor": 2,
+    "location": "body",
+    "keywords": ["armor", "set", "fur"],
+    "desc": "<b>Slam:</b> Spend <font class=\"kdm_font\">c</font>  to full move forward in a straight line. If you move 4+ spaces and stop adjacent to a monster, it suffers <b>knockback 1</b> and -1 toughness until the end of the round.",
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "pelt": 1 },
+        "resource_types": { "bone": 1 }
+      }
+    ],
+    "handle": "screaming_coat",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Screaming Coat",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Screaming Horns",
+    "armor": 3,
+    "location": "head",
+    "keywords": ["armor", "set", "bone"],
+    "affinities": { "bottom": "blue" },
+    "desc": "<font class=\"kdm_font\">a</font>: Scream. Non-deaf <b>insane</b> survivors gain +1 movement until end of round. All other survivors gain +1 insanity.",
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "spiral_horn": 1 },
+        "resource_types": { "scrap": 1 }
+      }
+    ],
+    "handle": "screaming_horns",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Screaming Horns",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Screaming Leg Warmers",
+    "armor": 2,
+    "location": "legs",
+    "keywords": ["armor", "set", "fur"],
+    "desc": "On <b>Arrival</b> your feet hurt. Gain +3 insanity. ",
+    "affinities": { "top": "blue", "right": "red" },
+    "recipes": [
+      {
+        "locations": ["stone_circle"],
+        "resource_handles": { "pelt": 1 },
+        "resource_types": { "hide": 1 }
+      }
+    ],
+    "handle": "screaming_leg_warmers",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Screaming Leg Warmers",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Screaming Skirt",
+    "armor": 3,
+    "location": "waist",
+    "keywords": ["armor", "set", "fur"],
+    "affinities": { "right": "green", "bottom": "blue" },
+    "desc": "Thick, protective fur protects your parts. Add +1 to severe waist injury roll results.",
+    "recipes": [
+      { "locations": ["stone_circle"], "resource_handles": { "pelt": 1 } }
+    ],
+    "handle": "screaming_skirt",
+    "sub_type": "stone_circle",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Stone Circle",
+    "selector_text": "Screaming Skirt",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Skull Helm",
+    "location": "head",
+    "armor": 3,
+    "affinities": { "bottom": "red" },
+    "keywords": ["armor", "bone", "fragile"],
+    "desc": "When you suffer a severe head injury, the Skull Helm is destroyed. Archive this card.",
+    "recipes": [
+      { "locations": ["bone_smith"], "resource_types": { "bone": 2 } },
+      { "locations": ["bone_smith"], "resource_handles": { "skull": 1 } }
+    ],
+    "handle": "skull_helm",
+    "sub_type": "bone_smith",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Bone Smith",
+    "selector_text": "Skull Helm",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Skullcap Hammer",
+    "desc": "On a <b>Perfect Hit</b>, the monster is dazed, and gains -1 speed token until the end of its turn. A monster can be dazed once per round.",
+    "keywords": ["weapon", "melee", "club", "bone"],
+    "speed": 2,
+    "accuracy": 7,
+    "strength": 3,
+    "affinities": { "bottom": "green" },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_types": { "scrap": 1, "bone": 2 }
+      }
+    ],
+    "handle": "skullcap_hammer",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Skullcap Hammer",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Sonic Tomahawk",
+    "speed": 3,
+    "accuracy": 5,
+    "strength": 2,
+    "affinities": { "left": "red" },
+    "keywords": ["weapon", "melee", "axe", "metal"],
+    "desc": "On a <b>perfect hit</b>, make 1 additional attack roll.",
+    "affinity_bonus": {
+      "desc": "Gain <b>Savage</b> and <b>Paired</b>",
+      "requires": {
+        "puzzle": { "red": 1 },
+        "complete": { "green": 2, "blue": 1 }
+      }
+    },
+    "handle": "sonic_tomahawk",
+    "sub_type": "plumery",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Plumery",
+    "selector_text": "Sonic Tomahawk",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Speed Powder",
+    "keywords": ["item", "soluble"],
+    "desc": "<font class=\"kdm_font\">a</font>: Suffer 2 brain damage. Gain +1 speed token. Use once per showdown.",
+    "affinities": { "right": "blue" },
+    "recipes": [
+      {
+        "locations": ["barber_surgeon"],
+        "resource_types": { "organ": 2 },
+        "resource_handles": { "second_heart": 1 }
+      }
+    ],
+    "handle": "speed_powder",
+    "sub_type": "barber_surgeon",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Barber Surgeon",
+    "selector_text": "Speed Powder",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Steel Shield",
+    "keywords": ["weapon", "melee", "shield", "metal", "heavy"],
+    "rules": ["Irreplaceable"],
+    "desc": "-3 movement.<br/>Spend <font class=\"kdm_font\">a</font> or survival to ignore a hit.",
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 6,
+    "handle": "steel_shield",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Steel Shield"
+  },
+  {
+    "type": "gear",
+    "name": "Steel Sword",
+    "keywords": ["weapon", "melee", "sword", "finesse", "metal"],
+    "rules": ["Irreplaceable", "Slow", "Sharp"],
+    "desc": "On a <b>Perfect hit</b>, the edge sharpens. Gain +1d10 strength for the rest of the attack.",
+    "speed": 1,
+    "accuracy": 4,
+    "strength": 5,
+    "handle": "steel_sword",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Steel Sword"
+  },
+  {
+    "type": "gear",
+    "name": "Stone Noses",
+    "keywords": ["item", "jewelry"],
+    "desc": "On <b>Arrival</b>, gain +1 survival, +1 insanity.<br/><b>Arrival:</b> At the start of the showdown.",
+    "handle": "stone_noses",
+    "sub_type": "organ_grinder",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Organ Grinder",
+    "selector_text": "Stone Noses",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Survivor's Lantern",
+    "keywords": ["item", "lantern"],
+    "affinities": { "left": "red", "bottom": "blue", "right": "green" },
+    "handle": "survivors_lantern",
+    "sub_type": "exhausted_lantern_hoard",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Exhausted Lantern Hoard",
+    "selector_text": "Survivor's Lantern",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Thunder Maul",
+    "keywords": ["weapon", "melee", "club", "two-handed", "other"],
+    "rules": ["Irreplaceable", "Unique", "Cursed"],
+    "desc": "On a <b>Perfect hit</b>, the monster is knocked down. Suffer a severe arm injury. All non-deaf survivors suffer 1 brain damage.",
+    "speed": 2,
+    "accuracy": 6,
+    "strength": 10,
+    "handle": "thunder_maul",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Thunder Maul"
+  },
+  {
+    "type": "gear",
+    "name": "Twilight Sword",
+    "keywords": ["weapon", "melee", "two-handed", "finesse", "other"],
+    "rules": ["Slow", "Cursed", "Cumbersome", "Sentient", "Irreplaceable"],
+    "desc": "Gains <b>Devastating 2</b> when fighting the Watcher.<br/>* Accuracy is 9 - Twilight Sword proficiency level.",
+    "speed": 1,
+    "accuracy": "*",
+    "strength": 9,
+    "handle": "twilight_sword",
+    "sub_type": "rare_gear",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Rare Gear",
+    "selector_text": "Twilight Sword"
+  },
+  {
+    "type": "gear",
+    "name": "Whisker Harp",
+    "keywords": ["item", "instrument", "noisy"],
+    "desc": "On <b>Arrival</b>, all survivors gain +1 survival.<br/><font class=\"kdm_font\">a</font>: Strum, roll 1d10. On a result of 6+ discard 1 <b>mood</b> currently in play.",
+    "affinities": { "left": "blue" },
+    "handle": "whisker_harp",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "Whisker Harp",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "Whistling Mace",
+    "keywords": ["weapon", "melee", "club", "bone"],
+    "desc": "On a <b>Perfect hit</b>, reveal the next AI card. Place it on top or bottom of the AI deck.<br/><b>Unwieldy:</b> If any attack roll results are 1, you hit yourself and suffer 1 damage.",
+    "rules": ["Unwieldy"],
+    "speed": 3,
+    "accuracy": 6,
+    "strength": 3,
+    "affinities": { "bottom": "green" },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_types": { "organ": 1, "bone": 2 }
+      }
+    ],
+    "handle": "whistling_mace",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Whistling Mace"
+  },
+  {
+    "type": "gear",
+    "name": "White Lion Armor Set",
+    "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/>Your weapons are your claws! Gain +1 speed and +2 strength when attacking with daggers or katars.",
+    "handle": "white_lion_armor_set",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "White Lion Armor Set",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "White Lion Boots",
+    "keywords": ["armor", "set", "fur", "heavy"],
+    "armor": 2,
+    "location": "legs",
+    "affinities": { "right": "red", "bottom": "red" },
+    "affinity_bonus": {
+      "desc": "+1 movement",
+      "requires": { "puzzle": { "red": 2 } }
+    },
+    "handle": "white_lion_boots",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "White Lion Boots",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "White Lion Coat",
+    "desc": "<b>Pounce:</b> Spend <font class=\"kdm_font\">c</font> and <font class=\"kdm_font\">a</font> to move 3 spaces in a straight line. Then, if you moved 3 spaces, activate a melee weapon with +1 strength.",
+    "armor": 2,
+    "location": "body",
+    "affinities": { "top": "blue" },
+    "handle": "white_lion_coat",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "White Lion Coat",
+    "keywords": [],
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "White Lion Gauntlet",
+    "keywords": ["armor", "set", "fur", "heavy"],
+    "desc": "When you <b>Pounce</b>, gain +1 accuracy for your next attack this turn.",
+    "armor": 2,
+    "location": "arms",
+    "handle": "white_lion_gauntlets",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "White Lion Gauntlet",
+    "rules": []
+  },
+  {
+    "type": "gear",
+    "name": "White Lion Helm",
+    "keywords": ["armor", "set", "fur", "heavy"],
+    "armor": 2,
+    "location": "head",
+    "affinities": { "bottom": "red" },
+    "affinity_bonus": {
+      "desc": "<font class=\"kdm_font\">a</font> and 1 survival: Roar. <b>Non-Deaf Insane</b> survivors gain +2 strength until end of round. All other survivors gain +1 insanity.",
+      "requires": { "puzzle": { "red": 1 }, "complete": { "blue": 1 } }
+    },
+    "handle": "white_lion_helm",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "White Lion Helm",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "White Lion Mask",
+    "keywords": ["item", "mask", "bone", "other"],
+    "rules": ["Unique", "Irreplaceable", "Accessory"],
+    "recipes": [
+      {
+        "locations": ["mask_maker"],
+        "resource_handles": { "shimmering_mane": 1 },
+        "resource_types": { "bone": 6, "organ": 4 }
+      }
+    ],
+    "handle": "white_lion_mask",
+    "sub_type": "mask_maker",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Mask Maker",
+    "selector_text": "White Lion Mask",
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "White Lion Skirt",
+    "keywords": ["armor", "set", "fur", "heavy"],
+    "armor": 2,
+    "location": "waist",
+    "affinities": { "right": "red", "left": "red" },
+    "handle": "white_lion_skirt",
+    "sub_type": "catarium",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Catarium",
+    "selector_text": "White Lion Skirt",
+    "rules": [],
+    "desc": ""
+  },
+  {
+    "type": "gear",
+    "name": "Zanbato",
+    "keywords": ["weapon", "melee", "grand weapon", "two-handed", "bone"],
+    "rules": ["Slow", "Frail", "Deadly"],
+    "speed": 1,
+    "accuracy": 6,
+    "strength": 6,
+    "affinities": { "top": "red", "right": "green" },
+    "affinity_bonus": {
+      "desc": "Gains <b>Devastating 1:</b> Whenever you wound, inflict 1 additional wound.",
+      "requires": { "complete": { "green": 1 }, "puzzle": { "red": 1 } }
+    },
+    "recipes": [
+      {
+        "locations": ["weapon_crafter"],
+        "resource_types": { "hide": 2 },
+        "resource_handles": { "great_cat_bone": 1 }
+      }
+    ],
+    "handle": "zanbato",
+    "sub_type": "weapon_crafter",
+    "type_pretty": "Gear",
+    "sub_type_pretty": "Weapon Crafter",
+    "selector_text": "Zanbato",
+    "desc": ""
+  }
+]
