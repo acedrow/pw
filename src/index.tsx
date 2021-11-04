@@ -11,12 +11,12 @@ ReactDOM.render(
     <GlobalStyle />
 
     <Switch>
-      <Route exact path="/kdm">
+      {/* <Route exact path="/kdm">
         <KdmMainpage />
-      </Route>
-      <Route exact path="/chess">
+      </Route> */}
+      {/* <Route exact path="/chess">
         <ChessMain />
-      </Route>
+      </Route> */}
       <Route exact path="/sw">
         <Skunkworks />
       </Route>

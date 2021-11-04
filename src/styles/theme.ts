@@ -12,4 +12,10 @@ export const mdTheme = {
   mdOrange: '#DA7E48',
 }
 
+export const mrTestTheme = {
+  grass: '#24421c',
+  stone: '#636363',
+  dirt: '#42331c'
+}
+
 export default theme
