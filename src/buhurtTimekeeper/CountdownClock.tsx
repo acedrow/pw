@@ -4,22 +4,36 @@ import styled from 'styled-components'
 const PRECISION_MS = 100
 
 type CountdownClockProps = {
+  title?: string
+  editable?: boolean
   startTimeSeconds: number
 }
 
-const CountdownClock = ({ startTimeSeconds }: CountdownClockProps) => {
+const CountdownClock = ({
+  startTimeSeconds,
+  title,
+  editable = false,
+}: CountdownClockProps) => {
+  const [currentStartTime, setCurrentStartTime] = useState(
+    startTimeSeconds * 1000
+  )
   const [running, setRunning] = useState(false)
+  const [timeElapsed, setTimeElapsed] = useState(false)
   const [currentMiliseconds, setCurrentMiliseconds] = useState(
     startTimeSeconds * 1000
   )
   const [watch, setWatch] = useState<any>(null)
 
   const start = () => {
-    if (!running) {
+    if (!running && !timeElapsed) {
       setRunning(true)
       setWatch(
         setInterval(() => {
-          setCurrentMiliseconds((prevMs) => prevMs - PRECISION_MS)
+          setCurrentMiliseconds((prevMs) => {
+            if (prevMs <= 0) {
+            }
+            return prevMs - PRECISION_MS
+          })
         }, PRECISION_MS)
       )
     }
@@ -31,6 +45,20 @@ const CountdownClock = ({ startTimeSeconds }: CountdownClockProps) => {
       clearInterval(watch)
     }
   }
+
+  const reset = () => {
+    stop()
+    clearInterval(watch)
+    setCurrentMiliseconds(currentStartTime)
+    setTimeElapsed(false)
+  }
+
+  useEffect(() => {
+    if (currentMiliseconds <= 0) {
+      stop()
+      setTimeElapsed(true)
+    }
+  }, [currentMiliseconds])
 
   const GetDisplayTime = (timeMs: number) => {
     const minutes = Math.floor(timeMs / 60000)
@@ -49,15 +77,58 @@ const CountdownClock = ({ startTimeSeconds }: CountdownClockProps) => {
     return (pad + num).slice(-pad.length)
   }
 
+  const handleTimerEdit = () => {
+    stop()
+    let newTime = prompt('Enter number of minutes, or minutes : seconds')
+    if (newTime === null) {
+      setCurrentMiliseconds(currentStartTime)
+      return
+    }
+    if (newTime?.includes(':')) {
+      const times = newTime.split(':')
+      const minutesInMs = parseInt(times[0]) * 60000
+      const secondsInMs = parseInt(times[1]) * 1000
+      setCurrentStartTime(minutesInMs + secondsInMs)
+      setCurrentMiliseconds(minutesInMs + secondsInMs)
+    } else {
+      setCurrentStartTime(parseInt(newTime) * 60000)
+      setCurrentMiliseconds(parseInt(newTime) * 60000)
+    }
+  }
+
+  const EditPencilButton = () => {
+    return <EditPencilSpan onClick={handleTimerEdit}>✏️</EditPencilSpan>
+  }
+
   return (
     <ClockContainer>
-      {GetDisplayTime(currentMiliseconds)}
+      <TitleContainer>
+        {title}
+        {editable && <EditPencilButton />}
+      </TitleContainer>
+      <NumberDisplaycontainer $timerDone={timeElapsed}>
+        {GetDisplayTime(currentMiliseconds)}
+      </NumberDisplaycontainer>
       <button onClick={() => (running ? stop() : start())}>
         {running ? 'STOP' : 'START'}
       </button>
+      <button onClick={() => reset()}>{'RESET'}</button>
     </ClockContainer>
   )
 }
+
+const TitleContainer = styled.span`
+  font-size: 26px;
+`
+
+const EditPencilSpan = styled.span`
+  cursor: pointer;
+`
+
+const NumberDisplaycontainer = styled.div<{ $timerDone: boolean }>`
+  font-size: 3rem;
+  ${({ $timerDone }) => $timerDone && 'background-color: red;'}
+`
 
 const ClockContainer = styled.div`
   max-width: 200px;

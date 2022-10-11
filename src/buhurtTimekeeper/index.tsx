@@ -1,17 +1,42 @@
 import styled from 'styled-components'
 import CountdownClock from './CountdownClock'
+import ScoreCounter from './ScoreCounter'
 
 const BuhurtTimekeeper = () => {
   return (
-    <Container>
-      <h2>Buhurt Chapter-Match Timekeeper</h2>
-      <CountdownClock startTimeSeconds={61} />
-    </Container>
+    <div style={{ textAlign: 'center' }}>
+      {/* <h2>Buhurt Chapter-Match Timekeeper</h2> */}
+      <OuterContainer>
+        <ScoreCounter title="Wyverns" />
+        <ClocksContainer>
+          <CountdownClock startTimeSeconds={900} title={'Round Timer'} />
+          <div style={{ marginTop: '40px' }}></div>
+          <CountdownClock
+            startTimeSeconds={60}
+            title={'Break Timer'}
+            editable
+          />
+        </ClocksContainer>
+        <ScoreCounter title="Devil Dogs" />
+      </OuterContainer>
+    </div>
   )
 }
 
-const Container = styled.div`
+const ClocksContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+`
+
+const OuterContainer = styled.div`
+  margin-top: 50px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 `
 
 export default BuhurtTimekeeper
