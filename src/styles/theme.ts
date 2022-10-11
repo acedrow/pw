@@ -13,9 +13,9 @@ export const mdTheme = {
 }
 
 export const mrTestTheme = {
-  grass: '#24421c',
+  grass: '#273624',
   stone: '#636363',
-  dirt: '#42331c'
+  dirt: '#332b1f'
 }
 
 export default theme

@@ -10,11 +10,11 @@ const homepagePhrases = [
   'songwriter',
   'bassist',
   'enormous nerd',
-  'ex-fencer',
   'ascendent memelord',
   'orb-gazer',
   'caster of auguries',
   'astral projector',
+  'buhurt warrior',
   'professional amateur',
   'rock climber',
   'raleigh rider',
@@ -30,7 +30,8 @@ const homepagePhrases = [
   'dedicated headbanger',
   'karaoke enthusiast',
   'DIY music supporter',
-  'mostpit devotee',
+  'moshpit devotee',
+  'Twin Cities Wyvern',
 ]
 
 //currently can't change this or font size without breaking styling 🙃🙃
@@ -59,7 +60,7 @@ const SlotMachineTextEffect = ({ textItems }: { textItems?: string[] }) => {
         textItems?.length ? textItems?.length - 1 : 1
       )
       setReelTop(newReelTop)
-    }, 3000)
+    }, 2500)
     return () => {
       clearInterval(interval)
     }
