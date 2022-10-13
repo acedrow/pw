@@ -131,6 +131,7 @@ const NumberDisplaycontainer = styled.div<{ $timerDone: boolean }>`
 `
 
 const ClockContainer = styled.div`
+  margin-bottom: 25px;
   max-width: 200px;
   display: flex;
   flex-direction: column;

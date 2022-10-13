@@ -10,7 +10,10 @@ const BuhurtTimekeeper = () => {
         <ScoreCounter title="Wyverns" />
         <ClocksContainer>
           <CountdownClock startTimeSeconds={900} title={'Round Timer'} />
-          <div style={{ marginTop: '40px' }}></div>
+          <CountdownClock
+            startTimeSeconds={60}
+            title={'Duel Timer'}
+          />
           <CountdownClock
             startTimeSeconds={60}
             title={'Break Timer'}
