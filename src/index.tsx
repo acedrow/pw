@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import BuhurtTimekeeper from './buhurtTimekeeper'
 import Homepage from './home/homepage'
+import PageNotFound from './home/pageNotFound'
 import GlobalStyle from './styles/globalStyle'
 
 ReactDOM.render(
@@ -13,6 +14,9 @@ ReactDOM.render(
       </Route>
       <Route exact path="/buhurttimekeeper">
         <BuhurtTimekeeper />
+      </Route>
+      <Route path="*">
+        <PageNotFound />
       </Route>
     </Switch>
   </Router>,
