@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import BuhurtTimekeeper from './buhurtTimekeeper'
 import Homepage from './home/homepage'
-import PageNotFound from './home/pageNotFound'
+import PageNotFound from './home/PageNotFound'
 import GlobalStyle from './styles/globalStyle'
 
 ReactDOM.render(

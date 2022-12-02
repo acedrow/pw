@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import CountdownClock from './CountdownClock'
 import ScoreCounter from './ScoreCounter'
 
-const BuhurtTimekeeper = () => {
+const BuhurtTimekeeper = () => {   
   return (
     <div style={{ textAlign: 'center' }}>
       {/* <h2>Buhurt Chapter-Match Timekeeper</h2> */}
@@ -10,10 +10,7 @@ const BuhurtTimekeeper = () => {
         <ScoreCounter title="Wyverns" />
         <ClocksContainer>
           <CountdownClock startTimeSeconds={900} title={'Round Timer'} />
-          <CountdownClock
-            startTimeSeconds={60}
-            title={'Duel Timer'}
-          />
+          <CountdownClock startTimeSeconds={60} title={'Duel Timer'} />
           <CountdownClock
             startTimeSeconds={60}
             title={'Break Timer'}

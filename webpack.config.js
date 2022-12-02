@@ -33,6 +33,10 @@ module.exports = {
         test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
         type: 'asset/inline',
       },
+      {
+        test: /\.mp3$/,
+        type: 'asset/resource',
+      },
     ],
   },
   resolve: {

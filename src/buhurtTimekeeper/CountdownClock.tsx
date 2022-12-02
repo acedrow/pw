@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
+import sound from '../../assets/sounds/dingdingding.mp3'
+import { useToggle } from 'react-use'
 
 const PRECISION_MS = 100
+const ding = new Audio(sound)
 
 type CountdownClockProps = {
   title?: string
@@ -19,6 +22,7 @@ const CountdownClock = ({
   )
   const [running, setRunning] = useState(false)
   const [timeElapsed, setTimeElapsed] = useState(false)
+  const [muted, toggleMuted] = useToggle(false)
   const [currentMiliseconds, setCurrentMiliseconds] = useState(
     startTimeSeconds * 1000
   )
@@ -55,6 +59,9 @@ const CountdownClock = ({
 
   useEffect(() => {
     if (currentMiliseconds <= 0) {
+      if (!muted) {
+        ding.play()
+      }
       stop()
       setTimeElapsed(true)
     }
@@ -97,13 +104,22 @@ const CountdownClock = ({
   }
 
   const EditPencilButton = () => {
-    return <EditPencilSpan onClick={handleTimerEdit}>✏️</EditPencilSpan>
+    return <PointerSpan onClick={handleTimerEdit}>✏️</PointerSpan>
+  }
+
+  const MuteButton = () => {
+    return (
+      <PointerSpan onClick={() => toggleMuted()}>
+        {muted ? `🔇` : `🔊`}
+      </PointerSpan>
+    )
   }
 
   return (
     <ClockContainer>
       <TitleContainer>
         {title}
+        <MuteButton />
         {editable && <EditPencilButton />}
       </TitleContainer>
       <NumberDisplaycontainer $timerDone={timeElapsed}>
@@ -117,15 +133,17 @@ const CountdownClock = ({
   )
 }
 
-const TitleContainer = styled.span`
+const TitleContainer = styled.span.attrs({ className: 'noselect' })`
   font-size: 26px;
 `
 
-const EditPencilSpan = styled.span`
+const PointerSpan = styled.span`
   cursor: pointer;
 `
 
-const NumberDisplaycontainer = styled.div<{ $timerDone: boolean }>`
+const NumberDisplaycontainer = styled.div.attrs({ className: 'noselect' })<{
+  $timerDone: boolean
+}>`
   font-size: 3rem;
   ${({ $timerDone }) => $timerDone && 'background-color: red;'}
 `
