@@ -17,7 +17,7 @@ const BuhurtTimekeeper = () => {
             editable
           />
         </ClocksContainer>
-        <ScoreCounter title="Devil Dogs" />
+        <ScoreCounter title="New Order" />
       </OuterContainer>
     </div>
   )
