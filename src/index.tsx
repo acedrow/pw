@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import BuhurtTimekeeper from './buhurtTimekeeper'
 import Homepage from './home/homepage'
 import PageNotFound from './home/PageNotFound'
 import GlobalStyle from './styles/globalStyle'
@@ -11,9 +10,6 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/">
         <Homepage />
-      </Route>
-      <Route exact path="/buhurttimekeeper">
-        <BuhurtTimekeeper />
       </Route>
       <Route path="*">
         <PageNotFound />
